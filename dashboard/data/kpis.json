@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:33:56.776965Z",
+  "generated_at": "2026-11-06T17:35:46.944722Z",
   "rates": {
     "fed_funds": {
       "value": 3.88,
@@ -7140,7 +7140,7 @@
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-06T17:33:56.358063Z"
+        "checked_at": "2026-11-06T17:35:46.871652Z"
       },
       {
         "dataset": "interest_rates",
@@ -7163,7 +7163,7 @@
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-06T17:33:56.362059Z"
+        "checked_at": "2026-11-06T17:35:46.874789Z"
       },
       {
         "dataset": "treasury_rates",
@@ -7185,7 +7185,7 @@
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-06T17:33:56.363568Z"
+        "checked_at": "2026-11-06T17:35:46.876961Z"
       },
       {
         "dataset": "bank_financials",
@@ -7221,7 +7221,7 @@
           "status": "stale"
         },
         "quality_score": 74.9,
-        "checked_at": "2026-11-06T17:33:56.380101Z"
+        "checked_at": "2026-11-06T17:35:46.888302Z"
       },
       {
         "dataset": "world_bank_indicators",
@@ -7246,7 +7246,7 @@
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-06T17:33:56.381099Z"
+        "checked_at": "2026-11-06T17:35:46.890015Z"
       }
     ]
   }
