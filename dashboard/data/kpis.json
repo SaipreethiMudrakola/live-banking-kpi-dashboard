@@ -1,0 +1,3153 @@
+{
+  "generated_at": "2026-11-06T16:10:11.611942Z",
+  "rates": {},
+  "rate_history": [],
+  "fx_latest": [
+    {
+      "currency": "AUD",
+      "rate": 1.4554,
+      "date": "2026-11-06",
+      "base": "USD"
+    },
+    {
+      "currency": "CAD",
+      "rate": 1.4066,
+      "date": "2026-11-06",
+      "base": "USD"
+    },
+    {
+      "currency": "CHF",
+      "rate": 0.8189,
+      "date": "2026-11-06",
+      "base": "USD"
+    },
+    {
+      "currency": "CNY",
+      "rate": 6.6713,
+      "date": "2026-11-06",
+      "base": "USD"
+    },
+    {
+      "currency": "EUR",
+      "rate": 0.89566,
+      "date": "2026-11-06",
+      "base": "USD"
+    },
+    {
+      "currency": "GBP",
+      "rate": 0.74711,
+      "date": "2026-11-06",
+      "base": "USD"
+    },
+    {
+      "currency": "INR",
+      "rate": 93.92,
+      "date": "2026-11-06",
+      "base": "USD"
+    },
+    {
+      "currency": "JPY",
+      "rate": 158.33,
+      "date": "2026-11-06",
+      "base": "USD"
+    }
+  ],
+  "fx_history": [
+    {
+      "date": "2026-05-11",
+      "currency": "EUR",
+      "rate": 0.84998
+    },
+    {
+      "date": "2026-05-11",
+      "currency": "GBP",
+      "rate": 0.73513
+    },
+    {
+      "date": "2026-05-11",
+      "currency": "INR",
+      "rate": 95.32
+    },
+    {
+      "date": "2026-05-11",
+      "currency": "JPY",
+      "rate": 157.14
+    },
+    {
+      "date": "2026-05-12",
+      "currency": "EUR",
+      "rate": 0.85193
+    },
+    {
+      "date": "2026-05-12",
+      "currency": "GBP",
+      "rate": 0.7395
+    },
+    {
+      "date": "2026-05-12",
+      "currency": "INR",
+      "rate": 95.64
+    },
+    {
+      "date": "2026-05-12",
+      "currency": "JPY",
+      "rate": 157.59
+    },
+    {
+      "date": "2026-05-13",
+      "currency": "EUR",
+      "rate": 0.85361
+    },
+    {
+      "date": "2026-05-13",
+      "currency": "GBP",
+      "rate": 0.74019
+    },
+    {
+      "date": "2026-05-13",
+      "currency": "INR",
+      "rate": 95.67
+    },
+    {
+      "date": "2026-05-13",
+      "currency": "JPY",
+      "rate": 157.77
+    },
+    {
+      "date": "2026-05-14",
+      "currency": "EUR",
+      "rate": 0.85455
+    },
+    {
+      "date": "2026-05-14",
+      "currency": "GBP",
+      "rate": 0.7402
+    },
+    {
+      "date": "2026-05-14",
+      "currency": "INR",
+      "rate": 95.77
+    },
+    {
+      "date": "2026-05-14",
+      "currency": "JPY",
+      "rate": 157.95
+    },
+    {
+      "date": "2026-05-15",
+      "currency": "EUR",
+      "rate": 0.85999
+    },
+    {
+      "date": "2026-05-15",
+      "currency": "GBP",
+      "rate": 0.74862
+    },
+    {
+      "date": "2026-05-15",
+      "currency": "INR",
+      "rate": 95.97
+    },
+    {
+      "date": "2026-05-15",
+      "currency": "JPY",
+      "rate": 158.55
+    },
+    {
+      "date": "2026-05-18",
+      "currency": "EUR",
+      "rate": 0.85852
+    },
+    {
+      "date": "2026-05-18",
+      "currency": "GBP",
+      "rate": 0.74708
+    },
+    {
+      "date": "2026-05-18",
+      "currency": "INR",
+      "rate": 96.35
+    },
+    {
+      "date": "2026-05-18",
+      "currency": "JPY",
+      "rate": 158.77
+    },
+    {
+      "date": "2026-05-19",
+      "currency": "EUR",
+      "rate": 0.86059
+    },
+    {
+      "date": "2026-05-19",
+      "currency": "GBP",
+      "rate": 0.74588
+    },
+    {
+      "date": "2026-05-19",
+      "currency": "INR",
+      "rate": 96.54
+    },
+    {
+      "date": "2026-05-19",
+      "currency": "JPY",
+      "rate": 159.11
+    },
+    {
+      "date": "2026-05-20",
+      "currency": "EUR",
+      "rate": 0.86207
+    },
+    {
+      "date": "2026-05-20",
+      "currency": "GBP",
+      "rate": 0.74616
+    },
+    {
+      "date": "2026-05-20",
+      "currency": "INR",
+      "rate": 96.83
+    },
+    {
+      "date": "2026-05-20",
+      "currency": "JPY",
+      "rate": 159.03
+    },
+    {
+      "date": "2026-05-21",
+      "currency": "EUR",
+      "rate": 0.86214
+    },
+    {
+      "date": "2026-05-21",
+      "currency": "GBP",
+      "rate": 0.74518
+    },
+    {
+      "date": "2026-05-21",
+      "currency": "INR",
+      "rate": 96.21
+    },
+    {
+      "date": "2026-05-21",
+      "currency": "JPY",
+      "rate": 159.14
+    },
+    {
+      "date": "2026-05-22",
+      "currency": "EUR",
+      "rate": 0.86244
+    },
+    {
+      "date": "2026-05-22",
+      "currency": "GBP",
+      "rate": 0.7453
+    },
+    {
+      "date": "2026-05-22",
+      "currency": "INR",
+      "rate": 95.7
+    },
+    {
+      "date": "2026-05-22",
+      "currency": "JPY",
+      "rate": 159.15
+    },
+    {
+      "date": "2026-05-25",
+      "currency": "EUR",
+      "rate": 0.85889
+    },
+    {
+      "date": "2026-05-25",
+      "currency": "GBP",
+      "rate": 0.74083
+    },
+    {
+      "date": "2026-05-25",
+      "currency": "INR",
+      "rate": 95.24
+    },
+    {
+      "date": "2026-05-25",
+      "currency": "JPY",
+      "rate": 158.93
+    },
+    {
+      "date": "2026-05-26",
+      "currency": "EUR",
+      "rate": 0.85955
+    },
+    {
+      "date": "2026-05-26",
+      "currency": "GBP",
+      "rate": 0.74244
+    },
+    {
+      "date": "2026-05-26",
+      "currency": "INR",
+      "rate": 95.69
+    },
+    {
+      "date": "2026-05-26",
+      "currency": "JPY",
+      "rate": 159.21
+    },
+    {
+      "date": "2026-05-27",
+      "currency": "EUR",
+      "rate": 0.85933
+    },
+    {
+      "date": "2026-05-27",
+      "currency": "GBP",
+      "rate": 0.74433
+    },
+    {
+      "date": "2026-05-27",
+      "currency": "INR",
+      "rate": 95.69
+    },
+    {
+      "date": "2026-05-27",
+      "currency": "JPY",
+      "rate": 159.42
+    },
+    {
+      "date": "2026-05-28",
+      "currency": "EUR",
+      "rate": 0.86081
+    },
+    {
+      "date": "2026-05-28",
+      "currency": "GBP",
+      "rate": 0.74602
+    },
+    {
+      "date": "2026-05-28",
+      "currency": "INR",
+      "rate": 95.7
+    },
+    {
+      "date": "2026-05-28",
+      "currency": "JPY",
+      "rate": 159.46
+    },
+    {
+      "date": "2026-05-29",
+      "currency": "EUR",
+      "rate": 0.85881
+    },
+    {
+      "date": "2026-05-29",
+      "currency": "GBP",
+      "rate": 0.74479
+    },
+    {
+      "date": "2026-05-29",
+      "currency": "INR",
+      "rate": 95.0
+    },
+    {
+      "date": "2026-05-29",
+      "currency": "JPY",
+      "rate": 159.27
+    },
+    {
+      "date": "2026-06-01",
+      "currency": "EUR",
+      "rate": 0.85866
+    },
+    {
+      "date": "2026-06-01",
+      "currency": "GBP",
+      "rate": 0.74268
+    },
+    {
+      "date": "2026-06-01",
+      "currency": "INR",
+      "rate": 94.99
+    },
+    {
+      "date": "2026-06-01",
+      "currency": "JPY",
+      "rate": 159.49
+    },
+    {
+      "date": "2026-06-02",
+      "currency": "EUR",
+      "rate": 0.85844
+    },
+    {
+      "date": "2026-06-02",
+      "currency": "GBP",
+      "rate": 0.74225
+    },
+    {
+      "date": "2026-06-02",
+      "currency": "INR",
+      "rate": 95.27
+    },
+    {
+      "date": "2026-06-02",
+      "currency": "JPY",
+      "rate": 159.75
+    },
+    {
+      "date": "2026-06-03",
+      "currency": "EUR",
+      "rate": 0.86103
+    },
+    {
+      "date": "2026-06-03",
+      "currency": "GBP",
+      "rate": 0.74367
+    },
+    {
+      "date": "2026-06-03",
+      "currency": "INR",
+      "rate": 95.71
+    },
+    {
+      "date": "2026-06-03",
+      "currency": "JPY",
+      "rate": 159.86
+    },
+    {
+      "date": "2026-06-04",
+      "currency": "EUR",
+      "rate": 0.85911
+    },
+    {
+      "date": "2026-06-04",
+      "currency": "GBP",
+      "rate": 0.74304
+    },
+    {
+      "date": "2026-06-04",
+      "currency": "INR",
+      "rate": 95.78
+    },
+    {
+      "date": "2026-06-04",
+      "currency": "JPY",
+      "rate": 159.8
+    },
+    {
+      "date": "2026-06-05",
+      "currency": "EUR",
+      "rate": 0.85911
+    },
+    {
+      "date": "2026-06-05",
+      "currency": "GBP",
+      "rate": 0.74255
+    },
+    {
+      "date": "2026-06-05",
+      "currency": "INR",
+      "rate": 94.95
+    },
+    {
+      "date": "2026-06-05",
+      "currency": "JPY",
+      "rate": 159.86
+    },
+    {
+      "date": "2026-06-08",
+      "currency": "EUR",
+      "rate": 0.86655
+    },
+    {
+      "date": "2026-06-08",
+      "currency": "GBP",
+      "rate": 0.74835
+    },
+    {
+      "date": "2026-06-08",
+      "currency": "INR",
+      "rate": 95.71
+    },
+    {
+      "date": "2026-06-08",
+      "currency": "JPY",
+      "rate": 159.97
+    },
+    {
+      "date": "2026-06-09",
+      "currency": "EUR",
+      "rate": 0.86408
+    },
+    {
+      "date": "2026-06-09",
+      "currency": "GBP",
+      "rate": 0.74605
+    },
+    {
+      "date": "2026-06-09",
+      "currency": "INR",
+      "rate": 95.35
+    },
+    {
+      "date": "2026-06-09",
+      "currency": "JPY",
+      "rate": 160.16
+    },
+    {
+      "date": "2026-06-10",
+      "currency": "EUR",
+      "rate": 0.86663
+    },
+    {
+      "date": "2026-06-10",
+      "currency": "GBP",
+      "rate": 0.74727
+    },
+    {
+      "date": "2026-06-10",
+      "currency": "INR",
+      "rate": 95.27
+    },
+    {
+      "date": "2026-06-10",
+      "currency": "JPY",
+      "rate": 160.49
+    },
+    {
+      "date": "2026-06-11",
+      "currency": "EUR",
+      "rate": 0.86678
+    },
+    {
+      "date": "2026-06-11",
+      "currency": "GBP",
+      "rate": 0.74829
+    },
+    {
+      "date": "2026-06-11",
+      "currency": "INR",
+      "rate": 95.76
+    },
+    {
+      "date": "2026-06-11",
+      "currency": "JPY",
+      "rate": 160.54
+    },
+    {
+      "date": "2026-06-12",
+      "currency": "EUR",
+      "rate": 0.86453
+    },
+    {
+      "date": "2026-06-12",
+      "currency": "GBP",
+      "rate": 0.74613
+    },
+    {
+      "date": "2026-06-12",
+      "currency": "INR",
+      "rate": 95.12
+    },
+    {
+      "date": "2026-06-12",
+      "currency": "JPY",
+      "rate": 160.2
+    },
+    {
+      "date": "2026-06-15",
+      "currency": "EUR",
+      "rate": 0.86155
+    },
+    {
+      "date": "2026-06-15",
+      "currency": "GBP",
+      "rate": 0.74509
+    },
+    {
+      "date": "2026-06-15",
+      "currency": "INR",
+      "rate": 94.72
+    },
+    {
+      "date": "2026-06-15",
+      "currency": "JPY",
+      "rate": 160.19
+    },
+    {
+      "date": "2026-06-16",
+      "currency": "EUR",
+      "rate": 0.86252
+    },
+    {
+      "date": "2026-06-16",
+      "currency": "GBP",
+      "rate": 0.74583
+    },
+    {
+      "date": "2026-06-16",
+      "currency": "INR",
+      "rate": 94.56
+    },
+    {
+      "date": "2026-06-16",
+      "currency": "JPY",
+      "rate": 160.38
+    },
+    {
+      "date": "2026-06-17",
+      "currency": "EUR",
+      "rate": 0.86274
+    },
+    {
+      "date": "2026-06-17",
+      "currency": "GBP",
+      "rate": 0.74595
+    },
+    {
+      "date": "2026-06-17",
+      "currency": "INR",
+      "rate": 94.53
+    },
+    {
+      "date": "2026-06-17",
+      "currency": "JPY",
+      "rate": 160.31
+    },
+    {
+      "date": "2026-06-18",
+      "currency": "EUR",
+      "rate": 0.87252
+    },
+    {
+      "date": "2026-06-18",
+      "currency": "GBP",
+      "rate": 0.75594
+    },
+    {
+      "date": "2026-06-18",
+      "currency": "INR",
+      "rate": 94.34
+    },
+    {
+      "date": "2026-06-18",
+      "currency": "JPY",
+      "rate": 160.93
+    },
+    {
+      "date": "2026-06-19",
+      "currency": "EUR",
+      "rate": 0.87207
+    },
+    {
+      "date": "2026-06-19",
+      "currency": "GBP",
+      "rate": 0.75567
+    },
+    {
+      "date": "2026-06-19",
+      "currency": "INR",
+      "rate": 94.33
+    },
+    {
+      "date": "2026-06-19",
+      "currency": "JPY",
+      "rate": 161.23
+    },
+    {
+      "date": "2026-06-22",
+      "currency": "EUR",
+      "rate": 0.87291
+    },
+    {
+      "date": "2026-06-22",
+      "currency": "GBP",
+      "rate": 0.75478
+    },
+    {
+      "date": "2026-06-22",
+      "currency": "INR",
+      "rate": 94.68
+    },
+    {
+      "date": "2026-06-22",
+      "currency": "JPY",
+      "rate": 161.78
+    },
+    {
+      "date": "2026-06-23",
+      "currency": "EUR",
+      "rate": 0.87781
+    },
+    {
+      "date": "2026-06-23",
+      "currency": "GBP",
+      "rate": 0.75667
+    },
+    {
+      "date": "2026-06-23",
+      "currency": "INR",
+      "rate": 94.74
+    },
+    {
+      "date": "2026-06-23",
+      "currency": "JPY",
+      "rate": 161.53
+    },
+    {
+      "date": "2026-06-24",
+      "currency": "EUR",
+      "rate": 0.88183
+    },
+    {
+      "date": "2026-06-24",
+      "currency": "GBP",
+      "rate": 0.75983
+    },
+    {
+      "date": "2026-06-24",
+      "currency": "INR",
+      "rate": 94.67
+    },
+    {
+      "date": "2026-06-24",
+      "currency": "JPY",
+      "rate": 161.68
+    },
+    {
+      "date": "2026-06-25",
+      "currency": "EUR",
+      "rate": 0.88168
+    },
+    {
+      "date": "2026-06-25",
+      "currency": "GBP",
+      "rate": 0.75986
+    },
+    {
+      "date": "2026-06-25",
+      "currency": "INR",
+      "rate": 94.39
+    },
+    {
+      "date": "2026-06-25",
+      "currency": "JPY",
+      "rate": 161.85
+    },
+    {
+      "date": "2026-06-26",
+      "currency": "EUR",
+      "rate": 0.87712
+    },
+    {
+      "date": "2026-06-26",
+      "currency": "GBP",
+      "rate": 0.75654
+    },
+    {
+      "date": "2026-06-26",
+      "currency": "INR",
+      "rate": 94.4
+    },
+    {
+      "date": "2026-06-26",
+      "currency": "JPY",
+      "rate": 161.65
+    },
+    {
+      "date": "2026-06-29",
+      "currency": "EUR",
+      "rate": 0.87673
+    },
+    {
+      "date": "2026-06-29",
+      "currency": "GBP",
+      "rate": 0.75587
+    },
+    {
+      "date": "2026-06-29",
+      "currency": "INR",
+      "rate": 94.55
+    },
+    {
+      "date": "2026-06-29",
+      "currency": "JPY",
+      "rate": 161.86
+    },
+    {
+      "date": "2026-06-30",
+      "currency": "EUR",
+      "rate": 0.87765
+    },
+    {
+      "date": "2026-06-30",
+      "currency": "GBP",
+      "rate": 0.75635
+    },
+    {
+      "date": "2026-06-30",
+      "currency": "INR",
+      "rate": 94.66
+    },
+    {
+      "date": "2026-06-30",
+      "currency": "JPY",
+      "rate": 162.44
+    },
+    {
+      "date": "2026-07-01",
+      "currency": "EUR",
+      "rate": 0.8785
+    },
+    {
+      "date": "2026-07-01",
+      "currency": "GBP",
+      "rate": 0.75528
+    },
+    {
+      "date": "2026-07-01",
+      "currency": "INR",
+      "rate": 95.25
+    },
+    {
+      "date": "2026-07-01",
+      "currency": "JPY",
+      "rate": 162.71
+    },
+    {
+      "date": "2026-07-02",
+      "currency": "EUR",
+      "rate": 0.87727
+    },
+    {
+      "date": "2026-07-02",
+      "currency": "GBP",
+      "rate": 0.75151
+    },
+    {
+      "date": "2026-07-02",
+      "currency": "INR",
+      "rate": 95.39
+    },
+    {
+      "date": "2026-07-02",
+      "currency": "JPY",
+      "rate": 161.58
+    },
+    {
+      "date": "2026-07-03",
+      "currency": "EUR",
+      "rate": 0.87352
+    },
+    {
+      "date": "2026-07-03",
+      "currency": "GBP",
+      "rate": 0.74878
+    },
+    {
+      "date": "2026-07-03",
+      "currency": "INR",
+      "rate": 95.21
+    },
+    {
+      "date": "2026-07-03",
+      "currency": "JPY",
+      "rate": 161.15
+    },
+    {
+      "date": "2026-07-06",
+      "currency": "EUR",
+      "rate": 0.87604
+    },
+    {
+      "date": "2026-07-06",
+      "currency": "GBP",
+      "rate": 0.74935
+    },
+    {
+      "date": "2026-07-06",
+      "currency": "INR",
+      "rate": 95.4
+    },
+    {
+      "date": "2026-07-06",
+      "currency": "JPY",
+      "rate": 162.34
+    },
+    {
+      "date": "2026-07-07",
+      "currency": "EUR",
+      "rate": 0.87466
+    },
+    {
+      "date": "2026-07-07",
+      "currency": "GBP",
+      "rate": 0.74706
+    },
+    {
+      "date": "2026-07-07",
+      "currency": "INR",
+      "rate": 94.97
+    },
+    {
+      "date": "2026-07-07",
+      "currency": "JPY",
+      "rate": 161.89
+    },
+    {
+      "date": "2026-07-08",
+      "currency": "EUR",
+      "rate": 0.87689
+    },
+    {
+      "date": "2026-07-08",
+      "currency": "GBP",
+      "rate": 0.74917
+    },
+    {
+      "date": "2026-07-08",
+      "currency": "INR",
+      "rate": 95.56
+    },
+    {
+      "date": "2026-07-08",
+      "currency": "JPY",
+      "rate": 162.49
+    },
+    {
+      "date": "2026-07-09",
+      "currency": "EUR",
+      "rate": 0.87451
+    },
+    {
+      "date": "2026-07-09",
+      "currency": "GBP",
+      "rate": 0.74651
+    },
+    {
+      "date": "2026-07-09",
+      "currency": "INR",
+      "rate": 95.39
+    },
+    {
+      "date": "2026-07-09",
+      "currency": "JPY",
+      "rate": 162.41
+    },
+    {
+      "date": "2026-07-10",
+      "currency": "EUR",
+      "rate": 0.87489
+    },
+    {
+      "date": "2026-07-10",
+      "currency": "GBP",
+      "rate": 0.74501
+    },
+    {
+      "date": "2026-07-10",
+      "currency": "INR",
+      "rate": 95.34
+    },
+    {
+      "date": "2026-07-10",
+      "currency": "JPY",
+      "rate": 161.87
+    },
+    {
+      "date": "2026-07-13",
+      "currency": "EUR",
+      "rate": 0.87535
+    },
+    {
+      "date": "2026-07-13",
+      "currency": "GBP",
+      "rate": 0.74694
+    },
+    {
+      "date": "2026-07-13",
+      "currency": "INR",
+      "rate": 95.62
+    },
+    {
+      "date": "2026-07-13",
+      "currency": "JPY",
+      "rate": 162.14
+    },
+    {
+      "date": "2026-07-14",
+      "currency": "EUR",
+      "rate": 0.87681
+    },
+    {
+      "date": "2026-07-14",
+      "currency": "GBP",
+      "rate": 0.74717
+    },
+    {
+      "date": "2026-07-14",
+      "currency": "INR",
+      "rate": 96.2
+    },
+    {
+      "date": "2026-07-14",
+      "currency": "JPY",
+      "rate": 162.22
+    },
+    {
+      "date": "2026-07-15",
+      "currency": "EUR",
+      "rate": 0.87673
+    },
+    {
+      "date": "2026-07-15",
+      "currency": "GBP",
+      "rate": 0.74604
+    },
+    {
+      "date": "2026-07-15",
+      "currency": "INR",
+      "rate": 96.26
+    },
+    {
+      "date": "2026-07-15",
+      "currency": "JPY",
+      "rate": 162.39
+    },
+    {
+      "date": "2026-07-16",
+      "currency": "EUR",
+      "rate": 0.87207
+    },
+    {
+      "date": "2026-07-16",
+      "currency": "GBP",
+      "rate": 0.74015
+    },
+    {
+      "date": "2026-07-16",
+      "currency": "INR",
+      "rate": 96.35
+    },
+    {
+      "date": "2026-07-16",
+      "currency": "JPY",
+      "rate": 162.2
+    },
+    {
+      "date": "2026-07-17",
+      "currency": "EUR",
+      "rate": 0.87451
+    },
+    {
+      "date": "2026-07-17",
+      "currency": "GBP",
+      "rate": 0.74419
+    },
+    {
+      "date": "2026-07-17",
+      "currency": "INR",
+      "rate": 96.28
+    },
+    {
+      "date": "2026-07-17",
+      "currency": "JPY",
+      "rate": 162.35
+    },
+    {
+      "date": "2026-07-20",
+      "currency": "EUR",
+      "rate": 0.8752
+    },
+    {
+      "date": "2026-07-20",
+      "currency": "GBP",
+      "rate": 0.74294
+    },
+    {
+      "date": "2026-07-20",
+      "currency": "INR",
+      "rate": 96.45
+    },
+    {
+      "date": "2026-07-20",
+      "currency": "JPY",
+      "rate": 162.38
+    },
+    {
+      "date": "2026-07-21",
+      "currency": "EUR",
+      "rate": 0.87581
+    },
+    {
+      "date": "2026-07-21",
+      "currency": "GBP",
+      "rate": 0.74623
+    },
+    {
+      "date": "2026-07-21",
+      "currency": "INR",
+      "rate": 96.23
+    },
+    {
+      "date": "2026-07-21",
+      "currency": "JPY",
+      "rate": 162.74
+    },
+    {
+      "date": "2026-07-22",
+      "currency": "EUR",
+      "rate": 0.87658
+    },
+    {
+      "date": "2026-07-22",
+      "currency": "GBP",
+      "rate": 0.74807
+    },
+    {
+      "date": "2026-07-22",
+      "currency": "INR",
+      "rate": 96.57
+    },
+    {
+      "date": "2026-07-22",
+      "currency": "JPY",
+      "rate": 163.07
+    },
+    {
+      "date": "2026-07-23",
+      "currency": "EUR",
+      "rate": 0.87781
+    },
+    {
+      "date": "2026-07-23",
+      "currency": "GBP",
+      "rate": 0.74893
+    },
+    {
+      "date": "2026-07-23",
+      "currency": "INR",
+      "rate": 96.59
+    },
+    {
+      "date": "2026-07-23",
+      "currency": "JPY",
+      "rate": 163.47
+    },
+    {
+      "date": "2026-07-24",
+      "currency": "EUR",
+      "rate": 0.87897
+    },
+    {
+      "date": "2026-07-24",
+      "currency": "GBP",
+      "rate": 0.75053
+    },
+    {
+      "date": "2026-07-24",
+      "currency": "INR",
+      "rate": 96.56
+    },
+    {
+      "date": "2026-07-24",
+      "currency": "JPY",
+      "rate": 163.82
+    },
+    {
+      "date": "2026-07-27",
+      "currency": "EUR",
+      "rate": 0.87804
+    },
+    {
+      "date": "2026-07-27",
+      "currency": "GBP",
+      "rate": 0.75094
+    },
+    {
+      "date": "2026-07-27",
+      "currency": "INR",
+      "rate": 95.92
+    },
+    {
+      "date": "2026-07-27",
+      "currency": "JPY",
+      "rate": 163.64
+    },
+    {
+      "date": "2026-07-28",
+      "currency": "EUR",
+      "rate": 0.87974
+    },
+    {
+      "date": "2026-07-28",
+      "currency": "GBP",
+      "rate": 0.75262
+    },
+    {
+      "date": "2026-07-28",
+      "currency": "INR",
+      "rate": 95.86
+    },
+    {
+      "date": "2026-07-28",
+      "currency": "JPY",
+      "rate": 163.91
+    },
+    {
+      "date": "2026-07-29",
+      "currency": "EUR",
+      "rate": 0.87873
+    },
+    {
+      "date": "2026-07-29",
+      "currency": "GBP",
+      "rate": 0.7525
+    },
+    {
+      "date": "2026-07-29",
+      "currency": "INR",
+      "rate": 95.65
+    },
+    {
+      "date": "2026-07-29",
+      "currency": "JPY",
+      "rate": 163.68
+    },
+    {
+      "date": "2026-07-30",
+      "currency": "EUR",
+      "rate": 0.87138
+    },
+    {
+      "date": "2026-07-30",
+      "currency": "GBP",
+      "rate": 0.74691
+    },
+    {
+      "date": "2026-07-30",
+      "currency": "INR",
+      "rate": 95.69
+    },
+    {
+      "date": "2026-07-30",
+      "currency": "JPY",
+      "rate": 162.94
+    },
+    {
+      "date": "2026-07-31",
+      "currency": "EUR",
+      "rate": 0.8707
+    },
+    {
+      "date": "2026-07-31",
+      "currency": "GBP",
+      "rate": 0.74508
+    },
+    {
+      "date": "2026-07-31",
+      "currency": "INR",
+      "rate": 95.39
+    },
+    {
+      "date": "2026-07-31",
+      "currency": "JPY",
+      "rate": 160.24
+    },
+    {
+      "date": "2026-08-03",
+      "currency": "EUR",
+      "rate": 0.86693
+    },
+    {
+      "date": "2026-08-03",
+      "currency": "GBP",
+      "rate": 0.74238
+    },
+    {
+      "date": "2026-08-03",
+      "currency": "INR",
+      "rate": 95.34
+    },
+    {
+      "date": "2026-08-03",
+      "currency": "JPY",
+      "rate": 156.68
+    },
+    {
+      "date": "2026-08-04",
+      "currency": "EUR",
+      "rate": 0.86843
+    },
+    {
+      "date": "2026-08-04",
+      "currency": "GBP",
+      "rate": 0.74372
+    },
+    {
+      "date": "2026-08-04",
+      "currency": "INR",
+      "rate": 95.38
+    },
+    {
+      "date": "2026-08-04",
+      "currency": "JPY",
+      "rate": 157.41
+    },
+    {
+      "date": "2026-08-05",
+      "currency": "EUR",
+      "rate": 0.8655
+    },
+    {
+      "date": "2026-08-05",
+      "currency": "GBP",
+      "rate": 0.74191
+    },
+    {
+      "date": "2026-08-05",
+      "currency": "INR",
+      "rate": 95.12
+    },
+    {
+      "date": "2026-08-05",
+      "currency": "JPY",
+      "rate": 157.59
+    },
+    {
+      "date": "2026-08-06",
+      "currency": "EUR",
+      "rate": 0.8664
+    },
+    {
+      "date": "2026-08-06",
+      "currency": "GBP",
+      "rate": 0.74255
+    },
+    {
+      "date": "2026-08-06",
+      "currency": "INR",
+      "rate": 95.23
+    },
+    {
+      "date": "2026-08-06",
+      "currency": "JPY",
+      "rate": 157.83
+    },
+    {
+      "date": "2026-08-07",
+      "currency": "EUR",
+      "rate": 0.86693
+    },
+    {
+      "date": "2026-08-07",
+      "currency": "GBP",
+      "rate": 0.74352
+    },
+    {
+      "date": "2026-08-07",
+      "currency": "INR",
+      "rate": 95.21
+    },
+    {
+      "date": "2026-08-07",
+      "currency": "JPY",
+      "rate": 158.34
+    },
+    {
+      "date": "2026-08-10",
+      "currency": "EUR",
+      "rate": 0.86543
+    },
+    {
+      "date": "2026-08-10",
+      "currency": "GBP",
+      "rate": 0.7405
+    },
+    {
+      "date": "2026-08-10",
+      "currency": "INR",
+      "rate": 95.3
+    },
+    {
+      "date": "2026-08-10",
+      "currency": "JPY",
+      "rate": 158.64
+    },
+    {
+      "date": "2026-08-11",
+      "currency": "EUR",
+      "rate": 0.86655
+    },
+    {
+      "date": "2026-08-11",
+      "currency": "GBP",
+      "rate": 0.74075
+    },
+    {
+      "date": "2026-08-11",
+      "currency": "INR",
+      "rate": 95.44
+    },
+    {
+      "date": "2026-08-11",
+      "currency": "JPY",
+      "rate": 159.2
+    },
+    {
+      "date": "2026-08-12",
+      "currency": "EUR",
+      "rate": 0.86618
+    },
+    {
+      "date": "2026-08-12",
+      "currency": "GBP",
+      "rate": 0.73935
+    },
+    {
+      "date": "2026-08-12",
+      "currency": "INR",
+      "rate": 95.34
+    },
+    {
+      "date": "2026-08-12",
+      "currency": "JPY",
+      "rate": 159.09
+    },
+    {
+      "date": "2026-08-13",
+      "currency": "EUR",
+      "rate": 0.867
+    },
+    {
+      "date": "2026-08-13",
+      "currency": "GBP",
+      "rate": 0.7412
+    },
+    {
+      "date": "2026-08-13",
+      "currency": "INR",
+      "rate": 95.44
+    },
+    {
+      "date": "2026-08-13",
+      "currency": "JPY",
+      "rate": 159.33
+    },
+    {
+      "date": "2026-08-14",
+      "currency": "EUR",
+      "rate": 0.86453
+    },
+    {
+      "date": "2026-08-14",
+      "currency": "GBP",
+      "rate": 0.73874
+    },
+    {
+      "date": "2026-08-14",
+      "currency": "INR",
+      "rate": 95.43
+    },
+    {
+      "date": "2026-08-14",
+      "currency": "JPY",
+      "rate": 159.01
+    },
+    {
+      "date": "2026-08-17",
+      "currency": "EUR",
+      "rate": 0.86259
+    },
+    {
+      "date": "2026-08-17",
+      "currency": "GBP",
+      "rate": 0.73751
+    },
+    {
+      "date": "2026-08-17",
+      "currency": "INR",
+      "rate": 95.61
+    },
+    {
+      "date": "2026-08-17",
+      "currency": "JPY",
+      "rate": 159.23
+    },
+    {
+      "date": "2026-08-18",
+      "currency": "EUR",
+      "rate": 0.86386
+    },
+    {
+      "date": "2026-08-18",
+      "currency": "GBP",
+      "rate": 0.73933
+    },
+    {
+      "date": "2026-08-18",
+      "currency": "INR",
+      "rate": 95.69
+    },
+    {
+      "date": "2026-08-18",
+      "currency": "JPY",
+      "rate": 159.7
+    },
+    {
+      "date": "2026-08-19",
+      "currency": "EUR",
+      "rate": 0.8617
+    },
+    {
+      "date": "2026-08-19",
+      "currency": "GBP",
+      "rate": 0.73768
+    },
+    {
+      "date": "2026-08-19",
+      "currency": "INR",
+      "rate": 95.76
+    },
+    {
+      "date": "2026-08-19",
+      "currency": "JPY",
+      "rate": 159.09
+    },
+    {
+      "date": "2026-08-20",
+      "currency": "EUR",
+      "rate": 0.85609
+    },
+    {
+      "date": "2026-08-20",
+      "currency": "GBP",
+      "rate": 0.73388
+    },
+    {
+      "date": "2026-08-20",
+      "currency": "INR",
+      "rate": 95.71
+    },
+    {
+      "date": "2026-08-20",
+      "currency": "JPY",
+      "rate": 158.76
+    },
+    {
+      "date": "2026-08-21",
+      "currency": "EUR",
+      "rate": 0.85477
+    },
+    {
+      "date": "2026-08-21",
+      "currency": "GBP",
+      "rate": 0.73228
+    },
+    {
+      "date": "2026-08-21",
+      "currency": "INR",
+      "rate": 95.7
+    },
+    {
+      "date": "2026-08-21",
+      "currency": "JPY",
+      "rate": 158.7
+    },
+    {
+      "date": "2026-08-24",
+      "currency": "EUR",
+      "rate": 0.85734
+    },
+    {
+      "date": "2026-08-24",
+      "currency": "GBP",
+      "rate": 0.73345
+    },
+    {
+      "date": "2026-08-24",
+      "currency": "INR",
+      "rate": 95.76
+    },
+    {
+      "date": "2026-08-24",
+      "currency": "JPY",
+      "rate": 159.12
+    },
+    {
+      "date": "2026-08-25",
+      "currency": "EUR",
+      "rate": 0.85749
+    },
+    {
+      "date": "2026-08-25",
+      "currency": "GBP",
+      "rate": 0.73358
+    },
+    {
+      "date": "2026-08-25",
+      "currency": "INR",
+      "rate": 95.42
+    },
+    {
+      "date": "2026-08-25",
+      "currency": "JPY",
+      "rate": 159.24
+    },
+    {
+      "date": "2026-08-26",
+      "currency": "EUR",
+      "rate": 0.85697
+    },
+    {
+      "date": "2026-08-26",
+      "currency": "GBP",
+      "rate": 0.73368
+    },
+    {
+      "date": "2026-08-26",
+      "currency": "INR",
+      "rate": 95.42
+    },
+    {
+      "date": "2026-08-26",
+      "currency": "JPY",
+      "rate": 159.07
+    },
+    {
+      "date": "2026-08-27",
+      "currency": "EUR",
+      "rate": 0.85874
+    },
+    {
+      "date": "2026-08-27",
+      "currency": "GBP",
+      "rate": 0.73628
+    },
+    {
+      "date": "2026-08-27",
+      "currency": "INR",
+      "rate": 95.54
+    },
+    {
+      "date": "2026-08-27",
+      "currency": "JPY",
+      "rate": 159.39
+    },
+    {
+      "date": "2026-08-28",
+      "currency": "EUR",
+      "rate": 0.85889
+    },
+    {
+      "date": "2026-08-28",
+      "currency": "GBP",
+      "rate": 0.73624
+    },
+    {
+      "date": "2026-08-28",
+      "currency": "INR",
+      "rate": 95.39
+    },
+    {
+      "date": "2026-08-28",
+      "currency": "JPY",
+      "rate": 159.68
+    },
+    {
+      "date": "2026-08-31",
+      "currency": "EUR",
+      "rate": 0.86237
+    },
+    {
+      "date": "2026-08-31",
+      "currency": "GBP",
+      "rate": 0.7386
+    },
+    {
+      "date": "2026-08-31",
+      "currency": "INR",
+      "rate": 95.17
+    },
+    {
+      "date": "2026-08-31",
+      "currency": "JPY",
+      "rate": 159.73
+    },
+    {
+      "date": "2026-09-01",
+      "currency": "EUR",
+      "rate": 0.86281
+    },
+    {
+      "date": "2026-09-01",
+      "currency": "GBP",
+      "rate": 0.73904
+    },
+    {
+      "date": "2026-09-01",
+      "currency": "INR",
+      "rate": 94.95
+    },
+    {
+      "date": "2026-09-01",
+      "currency": "JPY",
+      "rate": 160.16
+    },
+    {
+      "date": "2026-09-02",
+      "currency": "EUR",
+      "rate": 0.86371
+    },
+    {
+      "date": "2026-09-02",
+      "currency": "GBP",
+      "rate": 0.74167
+    },
+    {
+      "date": "2026-09-02",
+      "currency": "INR",
+      "rate": 94.97
+    },
+    {
+      "date": "2026-09-02",
+      "currency": "JPY",
+      "rate": 159.6
+    },
+    {
+      "date": "2026-09-03",
+      "currency": "EUR",
+      "rate": 0.86096
+    },
+    {
+      "date": "2026-09-03",
+      "currency": "GBP",
+      "rate": 0.7409
+    },
+    {
+      "date": "2026-09-03",
+      "currency": "INR",
+      "rate": 94.49
+    },
+    {
+      "date": "2026-09-03",
+      "currency": "JPY",
+      "rate": 156.01
+    },
+    {
+      "date": "2026-09-04",
+      "currency": "EUR",
+      "rate": 0.86044
+    },
+    {
+      "date": "2026-09-04",
+      "currency": "GBP",
+      "rate": 0.7391
+    },
+    {
+      "date": "2026-09-04",
+      "currency": "INR",
+      "rate": 94.49
+    },
+    {
+      "date": "2026-09-04",
+      "currency": "JPY",
+      "rate": 156.25
+    },
+    {
+      "date": "2026-09-07",
+      "currency": "EUR",
+      "rate": 0.86044
+    },
+    {
+      "date": "2026-09-07",
+      "currency": "GBP",
+      "rate": 0.73906
+    },
+    {
+      "date": "2026-09-07",
+      "currency": "INR",
+      "rate": 94.49
+    },
+    {
+      "date": "2026-09-07",
+      "currency": "JPY",
+      "rate": 154.75
+    },
+    {
+      "date": "2026-09-08",
+      "currency": "EUR",
+      "rate": 0.86103
+    },
+    {
+      "date": "2026-09-08",
+      "currency": "GBP",
+      "rate": 0.73825
+    },
+    {
+      "date": "2026-09-08",
+      "currency": "INR",
+      "rate": 94.83
+    },
+    {
+      "date": "2026-09-08",
+      "currency": "JPY",
+      "rate": 154.3
+    },
+    {
+      "date": "2026-09-09",
+      "currency": "EUR",
+      "rate": 0.85822
+    },
+    {
+      "date": "2026-09-09",
+      "currency": "GBP",
+      "rate": 0.7372
+    },
+    {
+      "date": "2026-09-09",
+      "currency": "INR",
+      "rate": 95.11
+    },
+    {
+      "date": "2026-09-09",
+      "currency": "JPY",
+      "rate": 153.27
+    },
+    {
+      "date": "2026-09-10",
+      "currency": "EUR",
+      "rate": 0.86088
+    },
+    {
+      "date": "2026-09-10",
+      "currency": "GBP",
+      "rate": 0.73963
+    },
+    {
+      "date": "2026-09-10",
+      "currency": "INR",
+      "rate": 95.44
+    },
+    {
+      "date": "2026-09-10",
+      "currency": "JPY",
+      "rate": 154.18
+    },
+    {
+      "date": "2026-09-11",
+      "currency": "EUR",
+      "rate": 0.86266
+    },
+    {
+      "date": "2026-09-11",
+      "currency": "GBP",
+      "rate": 0.7403
+    },
+    {
+      "date": "2026-09-11",
+      "currency": "INR",
+      "rate": 95.56
+    },
+    {
+      "date": "2026-09-11",
+      "currency": "JPY",
+      "rate": 154.04
+    },
+    {
+      "date": "2026-09-14",
+      "currency": "EUR",
+      "rate": 0.86573
+    },
+    {
+      "date": "2026-09-14",
+      "currency": "GBP",
+      "rate": 0.74104
+    },
+    {
+      "date": "2026-09-14",
+      "currency": "INR",
+      "rate": 95.56
+    },
+    {
+      "date": "2026-09-14",
+      "currency": "JPY",
+      "rate": 154.55
+    },
+    {
+      "date": "2026-09-15",
+      "currency": "EUR",
+      "rate": 0.86663
+    },
+    {
+      "date": "2026-09-15",
+      "currency": "GBP",
+      "rate": 0.74166
+    },
+    {
+      "date": "2026-09-15",
+      "currency": "INR",
+      "rate": 95.96
+    },
+    {
+      "date": "2026-09-15",
+      "currency": "JPY",
+      "rate": 155.0
+    },
+    {
+      "date": "2026-09-16",
+      "currency": "EUR",
+      "rate": 0.86678
+    },
+    {
+      "date": "2026-09-16",
+      "currency": "GBP",
+      "rate": 0.74317
+    },
+    {
+      "date": "2026-09-16",
+      "currency": "INR",
+      "rate": 95.96
+    },
+    {
+      "date": "2026-09-16",
+      "currency": "JPY",
+      "rate": 155.05
+    },
+    {
+      "date": "2026-09-17",
+      "currency": "EUR",
+      "rate": 0.871
+    },
+    {
+      "date": "2026-09-17",
+      "currency": "GBP",
+      "rate": 0.74758
+    },
+    {
+      "date": "2026-09-17",
+      "currency": "INR",
+      "rate": 95.94
+    },
+    {
+      "date": "2026-09-17",
+      "currency": "JPY",
+      "rate": 155.69
+    },
+    {
+      "date": "2026-09-18",
+      "currency": "EUR",
+      "rate": 0.8726
+    },
+    {
+      "date": "2026-09-18",
+      "currency": "GBP",
+      "rate": 0.74939
+    },
+    {
+      "date": "2026-09-18",
+      "currency": "INR",
+      "rate": 95.88
+    },
+    {
+      "date": "2026-09-18",
+      "currency": "JPY",
+      "rate": 157.89
+    },
+    {
+      "date": "2026-09-21",
+      "currency": "EUR",
+      "rate": 0.87032
+    },
+    {
+      "date": "2026-09-21",
+      "currency": "GBP",
+      "rate": 0.74656
+    },
+    {
+      "date": "2026-09-21",
+      "currency": "INR",
+      "rate": 95.82
+    },
+    {
+      "date": "2026-09-21",
+      "currency": "JPY",
+      "rate": 157.27
+    },
+    {
+      "date": "2026-09-22",
+      "currency": "EUR",
+      "rate": 0.87237
+    },
+    {
+      "date": "2026-09-22",
+      "currency": "GBP",
+      "rate": 0.74832
+    },
+    {
+      "date": "2026-09-22",
+      "currency": "INR",
+      "rate": 95.59
+    },
+    {
+      "date": "2026-09-22",
+      "currency": "JPY",
+      "rate": 157.18
+    },
+    {
+      "date": "2026-09-23",
+      "currency": "EUR",
+      "rate": 0.87635
+    },
+    {
+      "date": "2026-09-23",
+      "currency": "GBP",
+      "rate": 0.75322
+    },
+    {
+      "date": "2026-09-23",
+      "currency": "INR",
+      "rate": 95.74
+    },
+    {
+      "date": "2026-09-23",
+      "currency": "JPY",
+      "rate": 157.92
+    },
+    {
+      "date": "2026-09-24",
+      "currency": "EUR",
+      "rate": 0.87974
+    },
+    {
+      "date": "2026-09-24",
+      "currency": "GBP",
+      "rate": 0.75645
+    },
+    {
+      "date": "2026-09-24",
+      "currency": "INR",
+      "rate": 95.96
+    },
+    {
+      "date": "2026-09-24",
+      "currency": "JPY",
+      "rate": 158.85
+    },
+    {
+      "date": "2026-09-25",
+      "currency": "EUR",
+      "rate": 0.87696
+    },
+    {
+      "date": "2026-09-25",
+      "currency": "GBP",
+      "rate": 0.75458
+    },
+    {
+      "date": "2026-09-25",
+      "currency": "INR",
+      "rate": 95.82
+    },
+    {
+      "date": "2026-09-25",
+      "currency": "JPY",
+      "rate": 157.59
+    },
+    {
+      "date": "2026-09-28",
+      "currency": "EUR",
+      "rate": 0.87889
+    },
+    {
+      "date": "2026-09-28",
+      "currency": "GBP",
+      "rate": 0.75396
+    },
+    {
+      "date": "2026-09-28",
+      "currency": "INR",
+      "rate": 95.98
+    },
+    {
+      "date": "2026-09-28",
+      "currency": "JPY",
+      "rate": 156.88
+    },
+    {
+      "date": "2026-09-29",
+      "currency": "EUR",
+      "rate": 0.88067
+    },
+    {
+      "date": "2026-09-29",
+      "currency": "GBP",
+      "rate": 0.75489
+    },
+    {
+      "date": "2026-09-29",
+      "currency": "INR",
+      "rate": 95.98
+    },
+    {
+      "date": "2026-09-29",
+      "currency": "JPY",
+      "rate": 157.12
+    },
+    {
+      "date": "2026-09-30",
+      "currency": "EUR",
+      "rate": 0.88067
+    },
+    {
+      "date": "2026-09-30",
+      "currency": "GBP",
+      "rate": 0.75265
+    },
+    {
+      "date": "2026-09-30",
+      "currency": "INR",
+      "rate": 95.83
+    },
+    {
+      "date": "2026-09-30",
+      "currency": "JPY",
+      "rate": 157.0
+    },
+    {
+      "date": "2026-10-01",
+      "currency": "EUR",
+      "rate": 0.88511
+    },
+    {
+      "date": "2026-10-01",
+      "currency": "GBP",
+      "rate": 0.75565
+    },
+    {
+      "date": "2026-10-01",
+      "currency": "INR",
+      "rate": 96.33
+    },
+    {
+      "date": "2026-10-01",
+      "currency": "JPY",
+      "rate": 157.98
+    },
+    {
+      "date": "2026-10-02",
+      "currency": "EUR",
+      "rate": 0.89087
+    },
+    {
+      "date": "2026-10-02",
+      "currency": "GBP",
+      "rate": 0.75753
+    },
+    {
+      "date": "2026-10-02",
+      "currency": "INR",
+      "rate": 96.32
+    },
+    {
+      "date": "2026-10-02",
+      "currency": "JPY",
+      "rate": 157.67
+    },
+    {
+      "date": "2026-10-05",
+      "currency": "EUR",
+      "rate": 0.89254
+    },
+    {
+      "date": "2026-10-05",
+      "currency": "GBP",
+      "rate": 0.75616
+    },
+    {
+      "date": "2026-10-05",
+      "currency": "INR",
+      "rate": 96.3
+    },
+    {
+      "date": "2026-10-05",
+      "currency": "JPY",
+      "rate": 158.23
+    },
+    {
+      "date": "2026-10-06",
+      "currency": "EUR",
+      "rate": 0.88739
+    },
+    {
+      "date": "2026-10-06",
+      "currency": "GBP",
+      "rate": 0.75322
+    },
+    {
+      "date": "2026-10-06",
+      "currency": "INR",
+      "rate": 96.42
+    },
+    {
+      "date": "2026-10-06",
+      "currency": "JPY",
+      "rate": 158.09
+    },
+    {
+      "date": "2026-10-07",
+      "currency": "EUR",
+      "rate": 0.89469
+    },
+    {
+      "date": "2026-10-07",
+      "currency": "GBP",
+      "rate": 0.75731
+    },
+    {
+      "date": "2026-10-07",
+      "currency": "INR",
+      "rate": 96.73
+    },
+    {
+      "date": "2026-10-07",
+      "currency": "JPY",
+      "rate": 158.23
+    },
+    {
+      "date": "2026-10-08",
+      "currency": "EUR",
+      "rate": 0.89397
+    },
+    {
+      "date": "2026-10-08",
+      "currency": "GBP",
+      "rate": 0.75718
+    },
+    {
+      "date": "2026-10-08",
+      "currency": "INR",
+      "rate": 96.78
+    },
+    {
+      "date": "2026-10-08",
+      "currency": "JPY",
+      "rate": 158.28
+    },
+    {
+      "date": "2026-10-09",
+      "currency": "EUR",
+      "rate": 0.89238
+    },
+    {
+      "date": "2026-10-09",
+      "currency": "GBP",
+      "rate": 0.75641
+    },
+    {
+      "date": "2026-10-09",
+      "currency": "INR",
+      "rate": 96.73
+    },
+    {
+      "date": "2026-10-09",
+      "currency": "JPY",
+      "rate": 158.25
+    },
+    {
+      "date": "2026-10-12",
+      "currency": "EUR",
+      "rate": 0.89437
+    },
+    {
+      "date": "2026-10-12",
+      "currency": "GBP",
+      "rate": 0.75555
+    },
+    {
+      "date": "2026-10-12",
+      "currency": "INR",
+      "rate": 95.78
+    },
+    {
+      "date": "2026-10-12",
+      "currency": "JPY",
+      "rate": 158.6
+    },
+    {
+      "date": "2026-10-13",
+      "currency": "EUR",
+      "rate": 0.89381
+    },
+    {
+      "date": "2026-10-13",
+      "currency": "GBP",
+      "rate": 0.75492
+    },
+    {
+      "date": "2026-10-13",
+      "currency": "INR",
+      "rate": 95.28
+    },
+    {
+      "date": "2026-10-13",
+      "currency": "JPY",
+      "rate": 158.12
+    },
+    {
+      "date": "2026-10-14",
+      "currency": "EUR",
+      "rate": 0.89326
+    },
+    {
+      "date": "2026-10-14",
+      "currency": "GBP",
+      "rate": 0.75377
+    },
+    {
+      "date": "2026-10-14",
+      "currency": "INR",
+      "rate": 95.16
+    },
+    {
+      "date": "2026-10-14",
+      "currency": "JPY",
+      "rate": 158.45
+    },
+    {
+      "date": "2026-10-15",
+      "currency": "EUR",
+      "rate": 0.89222
+    },
+    {
+      "date": "2026-10-15",
+      "currency": "GBP",
+      "rate": 0.75491
+    },
+    {
+      "date": "2026-10-15",
+      "currency": "INR",
+      "rate": 95.06
+    },
+    {
+      "date": "2026-10-15",
+      "currency": "JPY",
+      "rate": 157.98
+    },
+    {
+      "date": "2026-10-16",
+      "currency": "EUR",
+      "rate": 0.88865
+    },
+    {
+      "date": "2026-10-16",
+      "currency": "GBP",
+      "rate": 0.74989
+    },
+    {
+      "date": "2026-10-16",
+      "currency": "INR",
+      "rate": 94.96
+    },
+    {
+      "date": "2026-10-16",
+      "currency": "JPY",
+      "rate": 158.02
+    },
+    {
+      "date": "2026-10-19",
+      "currency": "EUR",
+      "rate": 0.89087
+    },
+    {
+      "date": "2026-10-19",
+      "currency": "GBP",
+      "rate": 0.75016
+    },
+    {
+      "date": "2026-10-19",
+      "currency": "INR",
+      "rate": 94.93
+    },
+    {
+      "date": "2026-10-19",
+      "currency": "JPY",
+      "rate": 158.24
+    },
+    {
+      "date": "2026-10-20",
+      "currency": "EUR",
+      "rate": 0.89166
+    },
+    {
+      "date": "2026-10-20",
+      "currency": "GBP",
+      "rate": 0.74925
+    },
+    {
+      "date": "2026-10-20",
+      "currency": "INR",
+      "rate": 94.93
+    },
+    {
+      "date": "2026-10-20",
+      "currency": "JPY",
+      "rate": 158.13
+    },
+    {
+      "date": "2026-10-21",
+      "currency": "EUR",
+      "rate": 0.89015
+    },
+    {
+      "date": "2026-10-21",
+      "currency": "GBP",
+      "rate": 0.74617
+    },
+    {
+      "date": "2026-10-21",
+      "currency": "INR",
+      "rate": 94.47
+    },
+    {
+      "date": "2026-10-21",
+      "currency": "JPY",
+      "rate": 157.88
+    },
+    {
+      "date": "2026-10-22",
+      "currency": "EUR",
+      "rate": 0.89246
+    },
+    {
+      "date": "2026-10-22",
+      "currency": "GBP",
+      "rate": 0.74761
+    },
+    {
+      "date": "2026-10-22",
+      "currency": "INR",
+      "rate": 94.82
+    },
+    {
+      "date": "2026-10-22",
+      "currency": "JPY",
+      "rate": 157.05
+    },
+    {
+      "date": "2026-10-23",
+      "currency": "EUR",
+      "rate": 0.89342
+    },
+    {
+      "date": "2026-10-23",
+      "currency": "GBP",
+      "rate": 0.74804
+    },
+    {
+      "date": "2026-10-23",
+      "currency": "INR",
+      "rate": 94.94
+    },
+    {
+      "date": "2026-10-23",
+      "currency": "JPY",
+      "rate": 156.8
+    },
+    {
+      "date": "2026-10-26",
+      "currency": "EUR",
+      "rate": 0.89381
+    },
+    {
+      "date": "2026-10-26",
+      "currency": "GBP",
+      "rate": 0.7492
+    },
+    {
+      "date": "2026-10-26",
+      "currency": "INR",
+      "rate": 95.18
+    },
+    {
+      "date": "2026-10-26",
+      "currency": "JPY",
+      "rate": 157.45
+    },
+    {
+      "date": "2026-10-27",
+      "currency": "EUR",
+      "rate": 0.89686
+    },
+    {
+      "date": "2026-10-27",
+      "currency": "GBP",
+      "rate": 0.7503
+    },
+    {
+      "date": "2026-10-27",
+      "currency": "INR",
+      "rate": 95.12
+    },
+    {
+      "date": "2026-10-27",
+      "currency": "JPY",
+      "rate": 157.82
+    },
+    {
+      "date": "2026-10-28",
+      "currency": "EUR",
+      "rate": 0.89823
+    },
+    {
+      "date": "2026-10-28",
+      "currency": "GBP",
+      "rate": 0.75258
+    },
+    {
+      "date": "2026-10-28",
+      "currency": "INR",
+      "rate": 95.22
+    },
+    {
+      "date": "2026-10-28",
+      "currency": "JPY",
+      "rate": 157.96
+    },
+    {
+      "date": "2026-10-29",
+      "currency": "EUR",
+      "rate": 0.89847
+    },
+    {
+      "date": "2026-10-29",
+      "currency": "GBP",
+      "rate": 0.75093
+    },
+    {
+      "date": "2026-10-29",
+      "currency": "INR",
+      "rate": 95.27
+    },
+    {
+      "date": "2026-10-29",
+      "currency": "JPY",
+      "rate": 158.06
+    },
+    {
+      "date": "2026-10-30",
+      "currency": "EUR",
+      "rate": 0.89509
+    },
+    {
+      "date": "2026-10-30",
+      "currency": "GBP",
+      "rate": 0.74633
+    },
+    {
+      "date": "2026-10-30",
+      "currency": "INR",
+      "rate": 94.95
+    },
+    {
+      "date": "2026-10-30",
+      "currency": "JPY",
+      "rate": 157.25
+    },
+    {
+      "date": "2026-11-02",
+      "currency": "EUR",
+      "rate": 0.89158
+    },
+    {
+      "date": "2026-11-02",
+      "currency": "GBP",
+      "rate": 0.74519
+    },
+    {
+      "date": "2026-11-02",
+      "currency": "INR",
+      "rate": 94.91
+    },
+    {
+      "date": "2026-11-02",
+      "currency": "JPY",
+      "rate": 157.9
+    },
+    {
+      "date": "2026-11-03",
+      "currency": "EUR",
+      "rate": 0.89453
+    },
+    {
+      "date": "2026-11-03",
+      "currency": "GBP",
+      "rate": 0.74567
+    },
+    {
+      "date": "2026-11-03",
+      "currency": "INR",
+      "rate": 94.75
+    },
+    {
+      "date": "2026-11-03",
+      "currency": "JPY",
+      "rate": 158.29
+    },
+    {
+      "date": "2026-11-04",
+      "currency": "EUR",
+      "rate": 0.88755
+    },
+    {
+      "date": "2026-11-04",
+      "currency": "GBP",
+      "rate": 0.74075
+    },
+    {
+      "date": "2026-11-04",
+      "currency": "INR",
+      "rate": 94.64
+    },
+    {
+      "date": "2026-11-04",
+      "currency": "JPY",
+      "rate": 158.25
+    },
+    {
+      "date": "2026-11-05",
+      "currency": "EUR",
+      "rate": 0.89095
+    },
+    {
+      "date": "2026-11-05",
+      "currency": "GBP",
+      "rate": 0.74299
+    },
+    {
+      "date": "2026-11-05",
+      "currency": "INR",
+      "rate": 94.48
+    },
+    {
+      "date": "2026-11-05",
+      "currency": "JPY",
+      "rate": 158.46
+    },
+    {
+      "date": "2026-11-06",
+      "currency": "EUR",
+      "rate": 0.89566
+    },
+    {
+      "date": "2026-11-06",
+      "currency": "GBP",
+      "rate": 0.74711
+    },
+    {
+      "date": "2026-11-06",
+      "currency": "INR",
+      "rate": 93.92
+    },
+    {
+      "date": "2026-11-06",
+      "currency": "JPY",
+      "rate": 158.33
+    }
+  ],
+  "bank_system": {
+    "bank_count": 4313,
+    "total_assets": 26753048556.0,
+    "total_deposits": 20876353743.0,
+    "total_net_income": 171891779.0,
+    "avg_roa": 1.4775778692547559,
+    "avg_npl_ratio": 0.9417128535584071,
+    "avg_efficiency": 70.41875293907563,
+    "as_of_date": "2026-06-30"
+  },
+  "top_banks": [
+    {
+      "name": "JPMORGAN CHASE BANK NA",
+      "assets": 4091315000.0,
+      "deposits": 2820284000.0,
+      "net_income": 31335000.0,
+      "roa": 1.5851712753913223,
+      "npl_ratio": 0.7792763341160891,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "BANK OF AMERICA NA",
+      "assets": 2654645000.0,
+      "deposits": 2121804000.0,
+      "net_income": 14947000.0,
+      "roa": 1.126140493190317,
+      "npl_ratio": 0.6482121956011048,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "CITIBANK NATIONAL ASSN",
+      "assets": 1976180000.0,
+      "deposits": 1547586000.0,
+      "net_income": 10118000.0,
+      "roa": 1.0564825195197276,
+      "npl_ratio": 0.6578530297427228,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "WELLS FARGO BANK NA",
+      "assets": 1907928000.0,
+      "deposits": 1563534000.0,
+      "net_income": 12808000.0,
+      "roa": 1.3764987837774905,
+      "npl_ratio": 1.0422032692249872,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "GOLDMAN SACHS BANK USA",
+      "assets": 758788000.0,
+      "deposits": 498804000.0,
+      "net_income": 4333000.0,
+      "roa": 1.2060897371960244,
+      "npl_ratio": 1.0446202658741315,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "U S BANK NATIONAL ASSN",
+      "assets": 705554946.0,
+      "deposits": 541886374.0,
+      "net_income": 4225746.0,
+      "roa": 1.2277839078306394,
+      "npl_ratio": 1.4475244752007927,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "CAPITAL ONE NATIONAL ASSN",
+      "assets": 662157000.0,
+      "deposits": 512600000.0,
+      "net_income": 5552000.0,
+      "roa": 1.6717593968867013,
+      "npl_ratio": 1.4913692089753232,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "PNC BANK NATIONAL ASSN",
+      "assets": 609771726.0,
+      "deposits": 457798362.0,
+      "net_income": 3954707.0,
+      "roa": 1.3168442363727457,
+      "npl_ratio": 0.7432604356912987,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "TRUIST BANK",
+      "assets": 548346000.0,
+      "deposits": 419212000.0,
+      "net_income": 3155000.0,
+      "roa": 1.1620305148108248,
+      "npl_ratio": 0.7198424836522598,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "BANK OF NEW YORK MELLON",
+      "assets": 425115000.0,
+      "deposits": 372562000.0,
+      "net_income": 2891000.0,
+      "roa": 1.362114740851899,
+      "npl_ratio": 0.042864184830364985,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "MORGAN STANLEY BANK NA",
+      "assets": 419318000.0,
+      "deposits": 278937000.0,
+      "net_income": 2763000.0,
+      "roa": 1.5581251744643416,
+      "npl_ratio": 0.47340670413383945,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "STATE STREET BANK&TRUST CO",
+      "assets": 412620000.0,
+      "deposits": 326247000.0,
+      "net_income": 1875000.0,
+      "roa": 0.9699555199953096,
+      "npl_ratio": 0.5594913021062079,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "TD BANK NATIONAL ASSN",
+      "assets": 342803746.0,
+      "deposits": 277668163.0,
+      "net_income": 1423501.0,
+      "roa": 0.8255348639380751,
+      "npl_ratio": 1.1077653872528839,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "FIFTH THIRD BANK NA",
+      "assets": 299177000.0,
+      "deposits": 240928000.0,
+      "net_income": 1312000.0,
+      "roa": 0.9730230833410587,
+      "npl_ratio": 0.8400503918748676,
+      "report_date": "2026-06-30"
+    },
+    {
+      "name": "HUNTINGTON NATIONAL BANK",
+      "assets": 283073605.0,
+      "deposits": 227123103.0,
+      "net_income": 1431831.0,
+      "roa": 1.0857401002170708,
+      "npl_ratio": 1.0600106537818563,
+      "report_date": "2026-06-30"
+    }
+  ],
+  "world_bank": [
+    {
+      "indicator_name": "bank_capital_to_assets",
+      "indicator_code": "FB.BNK.CAPA.ZS",
+      "value": 9.17401570770544,
+      "year": 2025
+    },
+    {
+      "indicator_name": "domestic_credit_pct_gdp",
+      "indicator_code": "FS.AST.DOMS.GD.ZS",
+      "value": 262.301861696472,
+      "year": 2025
+    },
+    {
+      "indicator_name": "npl_ratio",
+      "indicator_code": "FB.AST.NPER.ZS",
+      "value": 0.960307384017485,
+      "year": 2025
+    }
+  ],
+  "treasury_sample": [
+    {
+      "date": "2026-10-31",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": 4.014
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": 3.399
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": 3.483
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": 1.227
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": 4.17
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": 2.383
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": 3.57
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": 7.577
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": 3.14
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": 3.49
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": 3.131
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": 4.594
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": 3.629
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": 1.393
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": 3.63
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": 3.58
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": 3.87
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": 3.383
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": 3.466
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": 1.149
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": 4.141
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": 2.383
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": 3.518
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": 7.577
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": 3.189
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": 3.459
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": 3.138
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": 4.527
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": 3.59
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": 1.392
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": 3.592
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": 3.531
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": 3.788
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": 3.345
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": 3.453
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": 1.134
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": 3.845
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": 2.383
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": 3.475
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": 7.577
+    }
+  ],
+  "quality": {
+    "overall_score": 75.0,
+    "status": "warn",
+    "datasets": [
+      {
+        "dataset": "fx_rates",
+        "row_count": 2048,
+        "column_count": 5,
+        "missing_values": {
+          "date": 0,
+          "base": 0,
+          "currency": 0,
+          "rate": 0,
+          "source": 0
+        },
+        "duplicate_rows": 0,
+        "odd_values": {
+          "rate": 0
+        },
+        "freshness": {
+          "latest_date": "2026-11-06",
+          "days_stale": 0,
+          "status": "fresh"
+        },
+        "quality_score": 100.0,
+        "checked_at": "2026-11-06T16:10:09.405848Z"
+      },
+      {
+        "dataset": "interest_rates",
+        "row_count": 0,
+        "column_count": 5,
+        "missing_values": {},
+        "duplicate_rows": 0,
+        "odd_values": {},
+        "freshness": {
+          "latest_date": null,
+          "days_stale": null,
+          "status": "unknown"
+        },
+        "quality_score": 0.0,
+        "checked_at": "2026-11-06T16:10:09.405848Z"
+      },
+      {
+        "dataset": "treasury_rates",
+        "row_count": 214,
+        "column_count": 4,
+        "missing_values": {
+          "date": 0,
+          "security_desc": 0,
+          "avg_interest_rate_amt": 0,
+          "source": 0
+        },
+        "duplicate_rows": 0,
+        "odd_values": {
+          "avg_interest_rate_amt": 0
+        },
+        "freshness": {
+          "latest_date": "2026-10-31",
+          "days_stale": 6,
+          "status": "fresh"
+        },
+        "quality_score": 100.0,
+        "checked_at": "2026-11-06T16:10:09.407838Z"
+      },
+      {
+        "dataset": "bank_financials",
+        "row_count": 10000,
+        "column_count": 11,
+        "missing_values": {
+          "cert": 0,
+          "name": 0,
+          "report_date": 0,
+          "assets": 0,
+          "deposits": 0,
+          "net_income": 34,
+          "roa": 0,
+          "npl_ratio": 0,
+          "equity": 34,
+          "efficiency_ratio": 0,
+          "source": 0
+        },
+        "duplicate_rows": 0,
+        "odd_values": {
+          "cert": 0,
+          "assets": 354,
+          "deposits": 319,
+          "net_income": 442,
+          "roa": 437,
+          "npl_ratio": 0,
+          "equity": 73,
+          "efficiency_ratio": 4
+        },
+        "freshness": {
+          "latest_date": "2026-06-30",
+          "days_stale": 129,
+          "status": "stale"
+        },
+        "quality_score": 74.9,
+        "checked_at": "2026-11-06T16:10:09.421352Z"
+      },
+      {
+        "dataset": "world_bank_indicators",
+        "row_count": 60,
+        "column_count": 6,
+        "missing_values": {
+          "year": 0,
+          "indicator_code": 0,
+          "indicator_name": 0,
+          "country": 0,
+          "value": 0,
+          "source": 0
+        },
+        "duplicate_rows": 0,
+        "odd_values": {
+          "year": 0,
+          "value": 0
+        },
+        "freshness": {
+          "latest_date": "2025",
+          "days_stale": 365,
+          "status": "fresh"
+        },
+        "quality_score": 100.0,
+        "checked_at": "2026-11-06T16:10:09.423913Z"
+      }
+    ]
+  }
+}

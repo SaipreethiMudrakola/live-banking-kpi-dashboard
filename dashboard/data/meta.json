@@ -1,0 +1,14 @@
+{
+  "run_id": "20261106T160813Z-dac540fa",
+  "generated_at": "2026-11-06T16:10:11.611942Z",
+  "sources": {
+    "frankfurter": 2048,
+    "fred": 0,
+    "treasury": 214,
+    "fdic": 10000,
+    "world_bank": 60
+  },
+  "fred_key_present": false,
+  "quality_status": "warn",
+  "overall_quality_score": 75.0
+}

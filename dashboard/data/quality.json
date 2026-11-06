@@ -1,0 +1,127 @@
+{
+  "overall_score": 75.0,
+  "status": "warn",
+  "datasets": [
+    {
+      "dataset": "fx_rates",
+      "row_count": 2048,
+      "column_count": 5,
+      "missing_values": {
+        "date": 0,
+        "base": 0,
+        "currency": 0,
+        "rate": 0,
+        "source": 0
+      },
+      "duplicate_rows": 0,
+      "odd_values": {
+        "rate": 0
+      },
+      "freshness": {
+        "latest_date": "2026-11-06",
+        "days_stale": 0,
+        "status": "fresh"
+      },
+      "quality_score": 100.0,
+      "checked_at": "2026-11-06T16:10:09.405848Z"
+    },
+    {
+      "dataset": "interest_rates",
+      "row_count": 0,
+      "column_count": 5,
+      "missing_values": {},
+      "duplicate_rows": 0,
+      "odd_values": {},
+      "freshness": {
+        "latest_date": null,
+        "days_stale": null,
+        "status": "unknown"
+      },
+      "quality_score": 0.0,
+      "checked_at": "2026-11-06T16:10:09.405848Z"
+    },
+    {
+      "dataset": "treasury_rates",
+      "row_count": 214,
+      "column_count": 4,
+      "missing_values": {
+        "date": 0,
+        "security_desc": 0,
+        "avg_interest_rate_amt": 0,
+        "source": 0
+      },
+      "duplicate_rows": 0,
+      "odd_values": {
+        "avg_interest_rate_amt": 0
+      },
+      "freshness": {
+        "latest_date": "2026-10-31",
+        "days_stale": 6,
+        "status": "fresh"
+      },
+      "quality_score": 100.0,
+      "checked_at": "2026-11-06T16:10:09.407838Z"
+    },
+    {
+      "dataset": "bank_financials",
+      "row_count": 10000,
+      "column_count": 11,
+      "missing_values": {
+        "cert": 0,
+        "name": 0,
+        "report_date": 0,
+        "assets": 0,
+        "deposits": 0,
+        "net_income": 34,
+        "roa": 0,
+        "npl_ratio": 0,
+        "equity": 34,
+        "efficiency_ratio": 0,
+        "source": 0
+      },
+      "duplicate_rows": 0,
+      "odd_values": {
+        "cert": 0,
+        "assets": 354,
+        "deposits": 319,
+        "net_income": 442,
+        "roa": 437,
+        "npl_ratio": 0,
+        "equity": 73,
+        "efficiency_ratio": 4
+      },
+      "freshness": {
+        "latest_date": "2026-06-30",
+        "days_stale": 129,
+        "status": "stale"
+      },
+      "quality_score": 74.9,
+      "checked_at": "2026-11-06T16:10:09.421352Z"
+    },
+    {
+      "dataset": "world_bank_indicators",
+      "row_count": 60,
+      "column_count": 6,
+      "missing_values": {
+        "year": 0,
+        "indicator_code": 0,
+        "indicator_name": 0,
+        "country": 0,
+        "value": 0,
+        "source": 0
+      },
+      "duplicate_rows": 0,
+      "odd_values": {
+        "year": 0,
+        "value": 0
+      },
+      "freshness": {
+        "latest_date": "2025",
+        "days_stale": 365,
+        "status": "fresh"
+      },
+      "quality_score": 100.0,
+      "checked_at": "2026-11-06T16:10:09.423913Z"
+    }
+  ]
+}

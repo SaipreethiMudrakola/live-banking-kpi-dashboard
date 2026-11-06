@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Live Banking KPI Dashboard — rates, FX, FDIC bank health, data quality" />
+  <title>Live Banking KPI Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">◈</div>
+      <div>
+        <h1>Live Banking KPIs</h1>
+        <p class="subtitle">Public markets · bank health · automated daily refresh</p>
+      </div>
+    </div>
+    <div class="top-meta">
+      <span id="quality-badge" class="badge">Quality —</span>
+      <span id="updated-at" class="muted mono">Loading…</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero-kpis" id="rate-cards" aria-label="Key interest rates"></section>
+
+    <section class="grid-2">
+      <article class="card">
+        <div class="card-head">
+          <h2>Rate trends</h2>
+          <p class="muted">FRED · last 12 months</p>
+        </div>
+        <div class="chart-wrap"><canvas id="ratesChart"></canvas></div>
+      </article>
+      <article class="card">
+        <div class="card-head">
+          <h2>USD FX</h2>
+          <p class="muted">Frankfurter / ECB</p>
+        </div>
+        <div class="chart-wrap"><canvas id="fxChart"></canvas></div>
+        <div id="fx-pills" class="pill-row"></div>
+      </article>
+    </section>
+
+    <section class="grid-2">
+      <article class="card">
+        <div class="card-head">
+          <h2>US bank system (FDIC)</h2>
+          <p class="muted" id="bank-asof">Latest call report slice</p>
+        </div>
+        <div id="bank-kpis" class="stat-grid"></div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Institution</th>
+                <th class="num">Assets</th>
+                <th class="num">ROA %</th>
+                <th class="num">NPL %</th>
+              </tr>
+            </thead>
+            <tbody id="top-banks-body"></tbody>
+          </table>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-head">
+          <h2>System indicators</h2>
+          <p class="muted">World Bank · Treasury averages</p>
+        </div>
+        <div id="wb-kpis" class="stat-grid"></div>
+        <div class="chart-wrap short"><canvas id="treasuryChart"></canvas></div>
+      </article>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Data quality</h2>
+        <p class="muted">Missing values · duplicates · outliers · freshness</p>
+      </div>
+      <div id="quality-grid" class="quality-grid"></div>
+    </section>
+
+    <section class="card sources">
+      <div class="card-head"><h2>Sources & stack</h2></div>
+      <ul class="source-list">
+        <li><strong>Frankfurter</strong> — FX rates (no key)</li>
+        <li><strong>FRED</strong> — Fed funds, SOFR, 10Y, mortgage, prime (<span class="mono">FRED_API_KEY</span>)</li>
+        <li><strong>US Treasury Fiscal Data</strong> — average interest rates (no key)</li>
+        <li><strong>FDIC BankFind</strong> — assets, NI, ROA, NPL (no key)</li>
+        <li><strong>World Bank</strong> — banking system indicators (no key)</li>
+      </ul>
+      <p class="muted tiny">Static site on GitHub Pages · SQLite warehouse in CI · daily GitHub Actions refresh. Portfolio demo — not investment advice.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>live-banking-kpi-dashboard</span>
+    <span class="muted" id="run-meta"></span>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

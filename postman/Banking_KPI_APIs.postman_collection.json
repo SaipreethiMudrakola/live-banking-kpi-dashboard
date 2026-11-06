@@ -1,0 +1,65 @@
+{
+  "info": {
+    "name": "Live Banking KPI APIs",
+    "description": "Public APIs used by live-banking-kpi-dashboard. Set collection var FRED_API_KEY.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "FRED_API_KEY", "value": "" },
+    { "key": "FRANKFURTER", "value": "https://api.frankfurter.app" },
+    { "key": "FRED", "value": "https://api.stlouisfed.org/fred" },
+    { "key": "TREASURY", "value": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service" },
+    { "key": "FDIC", "value": "https://banks.data.fdic.gov/api" },
+    { "key": "WB", "value": "https://api.worldbank.org/v2" }
+  ],
+  "item": [
+    {
+      "name": "Frankfurter USD history",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{FRANKFURTER}}/2024-01-01..2024-12-31?from=USD&to=EUR,GBP,JPY"
+      }
+    },
+    {
+      "name": "FRED Fed Funds",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{FRED}}/series/observations?series_id=FEDFUNDS&api_key={{FRED_API_KEY}}&file_type=json&observation_start=2022-01-01"
+      }
+    },
+    {
+      "name": "FRED SOFR",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{FRED}}/series/observations?series_id=SOFR&api_key={{FRED_API_KEY}}&file_type=json&sort_order=desc&limit=10"
+      }
+    },
+    {
+      "name": "Treasury avg interest rates",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{TREASURY}}/v2/accounting/od/avg_interest_rates?sort=-record_date&page[size]=50"
+      }
+    },
+    {
+      "name": "FDIC financials sample",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{FDIC}}/financials?filters=ACTIVE:1&fields=CERT,NAME,REPDTE,ASSET,NETINC,ROA,NCLNLSR,DEP&sort_by=REPDTE&sort_order=DESC&limit=100&format=json"
+      }
+    },
+    {
+      "name": "World Bank NPL USA",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{WB}}/country/USA/indicator/FB.AST.NPER.ZS?format=json&per_page=20"
+      }
+    }
+  ]
+}
