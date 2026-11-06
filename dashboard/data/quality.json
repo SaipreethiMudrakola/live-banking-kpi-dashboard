@@ -23,7 +23,7 @@
         "status": "fresh"
       },
       "quality_score": 100.0,
-      "checked_at": "2026-11-06T16:10:09.405848Z"
+      "checked_at": "2026-11-06T16:57:10.739520Z"
     },
     {
       "dataset": "interest_rates",
@@ -38,7 +38,7 @@
         "status": "unknown"
       },
       "quality_score": 0.0,
-      "checked_at": "2026-11-06T16:10:09.405848Z"
+      "checked_at": "2026-11-06T16:57:10.739622Z"
     },
     {
       "dataset": "treasury_rates",
@@ -60,7 +60,7 @@
         "status": "fresh"
       },
       "quality_score": 100.0,
-      "checked_at": "2026-11-06T16:10:09.407838Z"
+      "checked_at": "2026-11-06T16:57:10.741448Z"
     },
     {
       "dataset": "bank_financials",
@@ -96,7 +96,7 @@
         "status": "stale"
       },
       "quality_score": 74.9,
-      "checked_at": "2026-11-06T16:10:09.421352Z"
+      "checked_at": "2026-11-06T16:57:10.751959Z"
     },
     {
       "dataset": "world_bank_indicators",
@@ -121,7 +121,7 @@
         "status": "fresh"
       },
       "quality_score": 100.0,
-      "checked_at": "2026-11-06T16:10:09.423913Z"
+      "checked_at": "2026-11-06T16:57:10.753551Z"
     }
   ]
 }
