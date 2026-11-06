@@ -34,11 +34,20 @@ def run() -> dict:
     started = datetime.utcnow().isoformat() + "Z"
     log.info("ETL start run_id=%s", run_id)
 
-    fx = clean_fx(extract_frankfurter())
-    rates = clean_rates(extract_fred())
-    treasury = clean_treasury(extract_treasury())
-    banks = clean_fdic(extract_fdic())
-    wb = clean_wb(extract_world_bank())
+    def _safe(label, fn, cleaner):
+        try:
+            return cleaner(fn())
+        except Exception as exc:  # noqa: BLE001
+            log.warning("%s failed: %s", label, exc)
+            import pandas as pd
+
+            return cleaner(pd.DataFrame())
+
+    fx = _safe("frankfurter", extract_frankfurter, clean_fx)
+    rates = _safe("fred", extract_fred, clean_rates)
+    treasury = _safe("treasury", extract_treasury, clean_treasury)
+    banks = _safe("fdic", extract_fdic, clean_fdic)
+    wb = _safe("world_bank", extract_world_bank, clean_wb)
 
     # Persist raw snapshots (optional audit)
     for name, df in (

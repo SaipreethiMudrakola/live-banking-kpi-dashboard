@@ -30,38 +30,44 @@ def extract_frankfurter() -> pd.DataFrame:
 
 def extract_fred() -> pd.DataFrame:
     """Interest / rate series from FRED."""
-    if not config.FRED_API_KEY:
-        log.warning("FRED_API_KEY missing — skipping FRED extract")
-        return pd.DataFrame(columns=["date", "series_id", "series_name", "value", "source"])
+    empty = pd.DataFrame(columns=["date", "series_id", "series_name", "value", "source"])
+    key = (config.FRED_API_KEY or "").strip()
+    if not key or key in {"your_fred_api_key_here", "REPLACE_ME"} or len(key) != 32:
+        log.warning("FRED_API_KEY missing/invalid — skipping FRED extract")
+        return empty
 
     rows: list[dict[str, Any]] = []
     start = (date.today() - timedelta(days=365 * 3)).isoformat()
-    for name, series_id in config.FRED_SERIES.items():
-        url = f"{config.FRED_BASE}/series/observations"
-        payload = get_json(
-            url,
-            {
-                "series_id": series_id,
-                "api_key": config.FRED_API_KEY,
-                "file_type": "json",
-                "observation_start": start,
-                "sort_order": "asc",
-            },
-        )
-        for obs in payload.get("observations", []):
-            val = obs.get("value")
-            if val in (None, "."):
-                continue
-            rows.append(
+    try:
+        for name, series_id in config.FRED_SERIES.items():
+            url = f"{config.FRED_BASE}/series/observations"
+            payload = get_json(
+                url,
                 {
-                    "date": obs["date"],
                     "series_id": series_id,
-                    "series_name": name,
-                    "value": float(val),
-                    "source": "fred",
-                }
+                    "api_key": key,
+                    "file_type": "json",
+                    "observation_start": start,
+                    "sort_order": "asc",
+                },
             )
-    df = pd.DataFrame(rows)
+            for obs in payload.get("observations", []):
+                val = obs.get("value")
+                if val in (None, "."):
+                    continue
+                rows.append(
+                    {
+                        "date": obs["date"],
+                        "series_id": series_id,
+                        "series_name": name,
+                        "value": float(val),
+                        "source": "fred",
+                    }
+                )
+    except Exception as exc:  # noqa: BLE001
+        log.warning("FRED extract failed (%s) — continuing without rates", exc)
+        return empty
+    df = pd.DataFrame(rows) if rows else empty
     log.info("FRED rows=%s", len(df))
     return df
 
