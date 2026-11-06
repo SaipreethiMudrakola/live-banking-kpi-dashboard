@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import os
+import re
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -19,7 +20,24 @@ KPI_JSON = DASHBOARD_DATA / "kpis.json"
 QUALITY_JSON = DASHBOARD_DATA / "quality.json"
 META_JSON = DASHBOARD_DATA / "meta.json"
 
-FRED_API_KEY = os.getenv("FRED_API_KEY", "").strip()
+def _normalize_fred_key(raw: str) -> str:
+    """Accept bare keys or common paste mistakes like 'FRED_API_KEY:...' / 'api_key=...'."""
+    key = (raw or "").strip().strip('"').strip("'")
+    if not key:
+        return ""
+    for prefix in ("FRED_API_KEY:", "FRED_API_KEY=", "api_key:", "api_key="):
+        if key.upper().startswith(prefix.upper()):
+            key = key[len(prefix) :].strip()
+            break
+    # FRED keys are 32 hex chars; if a longer string embeds one, take the hex run
+    if len(key) != 32:
+        m = re.search(r"(?i)\b([a-f0-9]{32})\b", key)
+        if m:
+            key = m.group(1)
+    return key.strip()
+
+
+FRED_API_KEY = _normalize_fred_key(os.getenv("FRED_API_KEY", ""))
 FRED_BASE = os.getenv("FRED_BASE_URL", "https://api.stlouisfed.org/fred").rstrip("/")
 FRANKFURTER_BASE = os.getenv("FRANKFURTER_BASE_URL", "https://api.frankfurter.app").rstrip("/")
 TREASURY_BASE = "https://api.fiscaldata.treasury.gov/services/api/fiscal_service"

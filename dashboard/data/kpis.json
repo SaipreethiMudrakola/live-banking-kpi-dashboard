@@ -1,7 +1,4099 @@
 {
-  "generated_at": "2026-11-06T16:57:10.796067Z",
-  "rates": {},
-  "rate_history": [],
+  "generated_at": "2026-11-06T17:33:56.776965Z",
+  "rates": {
+    "fed_funds": {
+      "value": 3.88,
+      "date": "2026-10-01",
+      "series_id": "FEDFUNDS"
+    },
+    "mortgage_30y": {
+      "value": 7.18,
+      "date": "2026-11-05",
+      "series_id": "MORTGAGE30US"
+    },
+    "prime_rate": {
+      "value": 7.0,
+      "date": "2026-10-27",
+      "series_id": "DPRIME"
+    },
+    "sofr": {
+      "value": 3.92,
+      "date": "2026-11-05",
+      "series_id": "SOFR"
+    },
+    "treasury_10y": {
+      "value": 4.9,
+      "date": "2026-11-04",
+      "series_id": "DGS10"
+    }
+  },
+  "rate_history": [
+    {
+      "date": "2025-11-06",
+      "series_name": "treasury_10y",
+      "value": 4.11
+    },
+    {
+      "date": "2025-11-06",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-06",
+      "series_name": "mortgage_30y",
+      "value": 6.22
+    },
+    {
+      "date": "2025-11-06",
+      "series_name": "sofr",
+      "value": 3.92
+    },
+    {
+      "date": "2025-11-07",
+      "series_name": "treasury_10y",
+      "value": 4.11
+    },
+    {
+      "date": "2025-11-07",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-07",
+      "series_name": "sofr",
+      "value": 3.93
+    },
+    {
+      "date": "2025-11-10",
+      "series_name": "treasury_10y",
+      "value": 4.13
+    },
+    {
+      "date": "2025-11-10",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-10",
+      "series_name": "sofr",
+      "value": 3.95
+    },
+    {
+      "date": "2025-11-11",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-12",
+      "series_name": "treasury_10y",
+      "value": 4.08
+    },
+    {
+      "date": "2025-11-12",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-12",
+      "series_name": "sofr",
+      "value": 3.98
+    },
+    {
+      "date": "2025-11-13",
+      "series_name": "treasury_10y",
+      "value": 4.11
+    },
+    {
+      "date": "2025-11-13",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-13",
+      "series_name": "mortgage_30y",
+      "value": 6.24
+    },
+    {
+      "date": "2025-11-13",
+      "series_name": "sofr",
+      "value": 4.0
+    },
+    {
+      "date": "2025-11-14",
+      "series_name": "treasury_10y",
+      "value": 4.14
+    },
+    {
+      "date": "2025-11-14",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-14",
+      "series_name": "sofr",
+      "value": 3.95
+    },
+    {
+      "date": "2025-11-17",
+      "series_name": "treasury_10y",
+      "value": 4.13
+    },
+    {
+      "date": "2025-11-17",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-17",
+      "series_name": "sofr",
+      "value": 4.0
+    },
+    {
+      "date": "2025-11-18",
+      "series_name": "treasury_10y",
+      "value": 4.12
+    },
+    {
+      "date": "2025-11-18",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-18",
+      "series_name": "sofr",
+      "value": 3.94
+    },
+    {
+      "date": "2025-11-19",
+      "series_name": "treasury_10y",
+      "value": 4.13
+    },
+    {
+      "date": "2025-11-19",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-19",
+      "series_name": "sofr",
+      "value": 3.91
+    },
+    {
+      "date": "2025-11-20",
+      "series_name": "treasury_10y",
+      "value": 4.1
+    },
+    {
+      "date": "2025-11-20",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-20",
+      "series_name": "mortgage_30y",
+      "value": 6.26
+    },
+    {
+      "date": "2025-11-20",
+      "series_name": "sofr",
+      "value": 3.91
+    },
+    {
+      "date": "2025-11-21",
+      "series_name": "treasury_10y",
+      "value": 4.06
+    },
+    {
+      "date": "2025-11-21",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-21",
+      "series_name": "sofr",
+      "value": 3.93
+    },
+    {
+      "date": "2025-11-24",
+      "series_name": "treasury_10y",
+      "value": 4.04
+    },
+    {
+      "date": "2025-11-24",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-24",
+      "series_name": "sofr",
+      "value": 3.96
+    },
+    {
+      "date": "2025-11-25",
+      "series_name": "treasury_10y",
+      "value": 4.01
+    },
+    {
+      "date": "2025-11-25",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-25",
+      "series_name": "sofr",
+      "value": 4.01
+    },
+    {
+      "date": "2025-11-26",
+      "series_name": "treasury_10y",
+      "value": 4.0
+    },
+    {
+      "date": "2025-11-26",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-26",
+      "series_name": "mortgage_30y",
+      "value": 6.23
+    },
+    {
+      "date": "2025-11-26",
+      "series_name": "sofr",
+      "value": 4.05
+    },
+    {
+      "date": "2025-11-28",
+      "series_name": "treasury_10y",
+      "value": 4.02
+    },
+    {
+      "date": "2025-11-28",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-11-28",
+      "series_name": "sofr",
+      "value": 4.12
+    },
+    {
+      "date": "2025-12-01",
+      "series_name": "treasury_10y",
+      "value": 4.09
+    },
+    {
+      "date": "2025-12-01",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-12-01",
+      "series_name": "fed_funds",
+      "value": 3.72
+    },
+    {
+      "date": "2025-12-01",
+      "series_name": "sofr",
+      "value": 4.12
+    },
+    {
+      "date": "2025-12-02",
+      "series_name": "treasury_10y",
+      "value": 4.09
+    },
+    {
+      "date": "2025-12-02",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-12-02",
+      "series_name": "sofr",
+      "value": 4.01
+    },
+    {
+      "date": "2025-12-03",
+      "series_name": "treasury_10y",
+      "value": 4.06
+    },
+    {
+      "date": "2025-12-03",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-12-03",
+      "series_name": "sofr",
+      "value": 3.95
+    },
+    {
+      "date": "2025-12-04",
+      "series_name": "treasury_10y",
+      "value": 4.11
+    },
+    {
+      "date": "2025-12-04",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-12-04",
+      "series_name": "mortgage_30y",
+      "value": 6.19
+    },
+    {
+      "date": "2025-12-04",
+      "series_name": "sofr",
+      "value": 3.92
+    },
+    {
+      "date": "2025-12-05",
+      "series_name": "treasury_10y",
+      "value": 4.14
+    },
+    {
+      "date": "2025-12-05",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-12-05",
+      "series_name": "sofr",
+      "value": 3.93
+    },
+    {
+      "date": "2025-12-08",
+      "series_name": "treasury_10y",
+      "value": 4.17
+    },
+    {
+      "date": "2025-12-08",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-12-08",
+      "series_name": "sofr",
+      "value": 3.95
+    },
+    {
+      "date": "2025-12-09",
+      "series_name": "treasury_10y",
+      "value": 4.18
+    },
+    {
+      "date": "2025-12-09",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-12-09",
+      "series_name": "sofr",
+      "value": 3.93
+    },
+    {
+      "date": "2025-12-10",
+      "series_name": "treasury_10y",
+      "value": 4.13
+    },
+    {
+      "date": "2025-12-10",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2025-12-10",
+      "series_name": "sofr",
+      "value": 3.9
+    },
+    {
+      "date": "2025-12-11",
+      "series_name": "treasury_10y",
+      "value": 4.14
+    },
+    {
+      "date": "2025-12-11",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-11",
+      "series_name": "mortgage_30y",
+      "value": 6.22
+    },
+    {
+      "date": "2025-12-11",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2025-12-12",
+      "series_name": "treasury_10y",
+      "value": 4.19
+    },
+    {
+      "date": "2025-12-12",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-12",
+      "series_name": "sofr",
+      "value": 3.67
+    },
+    {
+      "date": "2025-12-15",
+      "series_name": "treasury_10y",
+      "value": 4.18
+    },
+    {
+      "date": "2025-12-15",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-15",
+      "series_name": "sofr",
+      "value": 3.75
+    },
+    {
+      "date": "2025-12-16",
+      "series_name": "treasury_10y",
+      "value": 4.15
+    },
+    {
+      "date": "2025-12-16",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-16",
+      "series_name": "sofr",
+      "value": 3.69
+    },
+    {
+      "date": "2025-12-17",
+      "series_name": "treasury_10y",
+      "value": 4.16
+    },
+    {
+      "date": "2025-12-17",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-17",
+      "series_name": "sofr",
+      "value": 3.69
+    },
+    {
+      "date": "2025-12-18",
+      "series_name": "treasury_10y",
+      "value": 4.12
+    },
+    {
+      "date": "2025-12-18",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-18",
+      "series_name": "mortgage_30y",
+      "value": 6.21
+    },
+    {
+      "date": "2025-12-18",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2025-12-19",
+      "series_name": "treasury_10y",
+      "value": 4.16
+    },
+    {
+      "date": "2025-12-19",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-19",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2025-12-22",
+      "series_name": "treasury_10y",
+      "value": 4.17
+    },
+    {
+      "date": "2025-12-22",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-22",
+      "series_name": "sofr",
+      "value": 3.68
+    },
+    {
+      "date": "2025-12-23",
+      "series_name": "treasury_10y",
+      "value": 4.18
+    },
+    {
+      "date": "2025-12-23",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-23",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2025-12-24",
+      "series_name": "treasury_10y",
+      "value": 4.15
+    },
+    {
+      "date": "2025-12-24",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-24",
+      "series_name": "mortgage_30y",
+      "value": 6.18
+    },
+    {
+      "date": "2025-12-24",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2025-12-25",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-26",
+      "series_name": "treasury_10y",
+      "value": 4.14
+    },
+    {
+      "date": "2025-12-26",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-26",
+      "series_name": "sofr",
+      "value": 3.76
+    },
+    {
+      "date": "2025-12-29",
+      "series_name": "treasury_10y",
+      "value": 4.12
+    },
+    {
+      "date": "2025-12-29",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-29",
+      "series_name": "sofr",
+      "value": 3.77
+    },
+    {
+      "date": "2025-12-30",
+      "series_name": "treasury_10y",
+      "value": 4.14
+    },
+    {
+      "date": "2025-12-30",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-30",
+      "series_name": "sofr",
+      "value": 3.71
+    },
+    {
+      "date": "2025-12-31",
+      "series_name": "treasury_10y",
+      "value": 4.18
+    },
+    {
+      "date": "2025-12-31",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2025-12-31",
+      "series_name": "mortgage_30y",
+      "value": 6.15
+    },
+    {
+      "date": "2025-12-31",
+      "series_name": "sofr",
+      "value": 3.87
+    },
+    {
+      "date": "2026-01-01",
+      "series_name": "fed_funds",
+      "value": 3.64
+    },
+    {
+      "date": "2026-01-02",
+      "series_name": "treasury_10y",
+      "value": 4.19
+    },
+    {
+      "date": "2026-01-02",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-02",
+      "series_name": "sofr",
+      "value": 3.75
+    },
+    {
+      "date": "2026-01-05",
+      "series_name": "treasury_10y",
+      "value": 4.17
+    },
+    {
+      "date": "2026-01-05",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-05",
+      "series_name": "sofr",
+      "value": 3.7
+    },
+    {
+      "date": "2026-01-06",
+      "series_name": "treasury_10y",
+      "value": 4.18
+    },
+    {
+      "date": "2026-01-06",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-06",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-01-07",
+      "series_name": "treasury_10y",
+      "value": 4.15
+    },
+    {
+      "date": "2026-01-07",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-07",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-01-08",
+      "series_name": "treasury_10y",
+      "value": 4.19
+    },
+    {
+      "date": "2026-01-08",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-08",
+      "series_name": "mortgage_30y",
+      "value": 6.16
+    },
+    {
+      "date": "2026-01-08",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-01-09",
+      "series_name": "treasury_10y",
+      "value": 4.18
+    },
+    {
+      "date": "2026-01-09",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-09",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-01-12",
+      "series_name": "treasury_10y",
+      "value": 4.19
+    },
+    {
+      "date": "2026-01-12",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-12",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-01-13",
+      "series_name": "treasury_10y",
+      "value": 4.18
+    },
+    {
+      "date": "2026-01-13",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-13",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-01-14",
+      "series_name": "treasury_10y",
+      "value": 4.15
+    },
+    {
+      "date": "2026-01-14",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-14",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-01-15",
+      "series_name": "treasury_10y",
+      "value": 4.17
+    },
+    {
+      "date": "2026-01-15",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-15",
+      "series_name": "mortgage_30y",
+      "value": 6.06
+    },
+    {
+      "date": "2026-01-15",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-01-16",
+      "series_name": "treasury_10y",
+      "value": 4.24
+    },
+    {
+      "date": "2026-01-16",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-16",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-01-19",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-20",
+      "series_name": "treasury_10y",
+      "value": 4.3
+    },
+    {
+      "date": "2026-01-20",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-20",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-01-21",
+      "series_name": "treasury_10y",
+      "value": 4.26
+    },
+    {
+      "date": "2026-01-21",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-21",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-01-22",
+      "series_name": "treasury_10y",
+      "value": 4.26
+    },
+    {
+      "date": "2026-01-22",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-22",
+      "series_name": "mortgage_30y",
+      "value": 6.09
+    },
+    {
+      "date": "2026-01-22",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-01-23",
+      "series_name": "treasury_10y",
+      "value": 4.24
+    },
+    {
+      "date": "2026-01-23",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-23",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-01-26",
+      "series_name": "treasury_10y",
+      "value": 4.22
+    },
+    {
+      "date": "2026-01-26",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-26",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-01-27",
+      "series_name": "treasury_10y",
+      "value": 4.24
+    },
+    {
+      "date": "2026-01-27",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-27",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-01-28",
+      "series_name": "treasury_10y",
+      "value": 4.26
+    },
+    {
+      "date": "2026-01-28",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-28",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-01-29",
+      "series_name": "treasury_10y",
+      "value": 4.24
+    },
+    {
+      "date": "2026-01-29",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-29",
+      "series_name": "mortgage_30y",
+      "value": 6.1
+    },
+    {
+      "date": "2026-01-29",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-01-30",
+      "series_name": "treasury_10y",
+      "value": 4.26
+    },
+    {
+      "date": "2026-01-30",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-01-30",
+      "series_name": "sofr",
+      "value": 3.68
+    },
+    {
+      "date": "2026-02-01",
+      "series_name": "fed_funds",
+      "value": 3.64
+    },
+    {
+      "date": "2026-02-02",
+      "series_name": "treasury_10y",
+      "value": 4.29
+    },
+    {
+      "date": "2026-02-02",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-02",
+      "series_name": "sofr",
+      "value": 3.69
+    },
+    {
+      "date": "2026-02-03",
+      "series_name": "treasury_10y",
+      "value": 4.28
+    },
+    {
+      "date": "2026-02-03",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-03",
+      "series_name": "sofr",
+      "value": 3.69
+    },
+    {
+      "date": "2026-02-04",
+      "series_name": "treasury_10y",
+      "value": 4.29
+    },
+    {
+      "date": "2026-02-04",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-04",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-02-05",
+      "series_name": "treasury_10y",
+      "value": 4.21
+    },
+    {
+      "date": "2026-02-05",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-05",
+      "series_name": "mortgage_30y",
+      "value": 6.11
+    },
+    {
+      "date": "2026-02-05",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-02-06",
+      "series_name": "treasury_10y",
+      "value": 4.22
+    },
+    {
+      "date": "2026-02-06",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-06",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-02-09",
+      "series_name": "treasury_10y",
+      "value": 4.22
+    },
+    {
+      "date": "2026-02-09",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-09",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-02-10",
+      "series_name": "treasury_10y",
+      "value": 4.16
+    },
+    {
+      "date": "2026-02-10",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-10",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-02-11",
+      "series_name": "treasury_10y",
+      "value": 4.18
+    },
+    {
+      "date": "2026-02-11",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-11",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-02-12",
+      "series_name": "treasury_10y",
+      "value": 4.09
+    },
+    {
+      "date": "2026-02-12",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-12",
+      "series_name": "mortgage_30y",
+      "value": 6.09
+    },
+    {
+      "date": "2026-02-12",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-02-13",
+      "series_name": "treasury_10y",
+      "value": 4.04
+    },
+    {
+      "date": "2026-02-13",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-13",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-02-16",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-17",
+      "series_name": "treasury_10y",
+      "value": 4.05
+    },
+    {
+      "date": "2026-02-17",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-17",
+      "series_name": "sofr",
+      "value": 3.71
+    },
+    {
+      "date": "2026-02-18",
+      "series_name": "treasury_10y",
+      "value": 4.09
+    },
+    {
+      "date": "2026-02-18",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-18",
+      "series_name": "sofr",
+      "value": 3.73
+    },
+    {
+      "date": "2026-02-19",
+      "series_name": "treasury_10y",
+      "value": 4.08
+    },
+    {
+      "date": "2026-02-19",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-19",
+      "series_name": "mortgage_30y",
+      "value": 6.01
+    },
+    {
+      "date": "2026-02-19",
+      "series_name": "sofr",
+      "value": 3.67
+    },
+    {
+      "date": "2026-02-20",
+      "series_name": "treasury_10y",
+      "value": 4.08
+    },
+    {
+      "date": "2026-02-20",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-20",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-02-23",
+      "series_name": "treasury_10y",
+      "value": 4.03
+    },
+    {
+      "date": "2026-02-23",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-23",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-02-24",
+      "series_name": "treasury_10y",
+      "value": 4.04
+    },
+    {
+      "date": "2026-02-24",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-24",
+      "series_name": "sofr",
+      "value": 3.67
+    },
+    {
+      "date": "2026-02-25",
+      "series_name": "treasury_10y",
+      "value": 4.05
+    },
+    {
+      "date": "2026-02-25",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-25",
+      "series_name": "sofr",
+      "value": 3.67
+    },
+    {
+      "date": "2026-02-26",
+      "series_name": "treasury_10y",
+      "value": 4.02
+    },
+    {
+      "date": "2026-02-26",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-26",
+      "series_name": "mortgage_30y",
+      "value": 5.98
+    },
+    {
+      "date": "2026-02-26",
+      "series_name": "sofr",
+      "value": 3.67
+    },
+    {
+      "date": "2026-02-27",
+      "series_name": "treasury_10y",
+      "value": 3.97
+    },
+    {
+      "date": "2026-02-27",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-02-27",
+      "series_name": "sofr",
+      "value": 3.68
+    },
+    {
+      "date": "2026-03-01",
+      "series_name": "fed_funds",
+      "value": 3.64
+    },
+    {
+      "date": "2026-03-02",
+      "series_name": "treasury_10y",
+      "value": 4.05
+    },
+    {
+      "date": "2026-03-02",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-02",
+      "series_name": "sofr",
+      "value": 3.71
+    },
+    {
+      "date": "2026-03-03",
+      "series_name": "treasury_10y",
+      "value": 4.06
+    },
+    {
+      "date": "2026-03-03",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-03",
+      "series_name": "sofr",
+      "value": 3.7
+    },
+    {
+      "date": "2026-03-04",
+      "series_name": "treasury_10y",
+      "value": 4.09
+    },
+    {
+      "date": "2026-03-04",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-04",
+      "series_name": "sofr",
+      "value": 3.67
+    },
+    {
+      "date": "2026-03-05",
+      "series_name": "treasury_10y",
+      "value": 4.13
+    },
+    {
+      "date": "2026-03-05",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-05",
+      "series_name": "mortgage_30y",
+      "value": 6.0
+    },
+    {
+      "date": "2026-03-05",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-03-06",
+      "series_name": "treasury_10y",
+      "value": 4.15
+    },
+    {
+      "date": "2026-03-06",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-06",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-03-09",
+      "series_name": "treasury_10y",
+      "value": 4.12
+    },
+    {
+      "date": "2026-03-09",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-09",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-03-10",
+      "series_name": "treasury_10y",
+      "value": 4.15
+    },
+    {
+      "date": "2026-03-10",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-10",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-03-11",
+      "series_name": "treasury_10y",
+      "value": 4.21
+    },
+    {
+      "date": "2026-03-11",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-11",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-03-12",
+      "series_name": "treasury_10y",
+      "value": 4.27
+    },
+    {
+      "date": "2026-03-12",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-12",
+      "series_name": "mortgage_30y",
+      "value": 6.11
+    },
+    {
+      "date": "2026-03-12",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-03-13",
+      "series_name": "treasury_10y",
+      "value": 4.28
+    },
+    {
+      "date": "2026-03-13",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-13",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-03-16",
+      "series_name": "treasury_10y",
+      "value": 4.23
+    },
+    {
+      "date": "2026-03-16",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-16",
+      "series_name": "sofr",
+      "value": 3.7
+    },
+    {
+      "date": "2026-03-17",
+      "series_name": "treasury_10y",
+      "value": 4.2
+    },
+    {
+      "date": "2026-03-17",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-17",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-03-18",
+      "series_name": "treasury_10y",
+      "value": 4.26
+    },
+    {
+      "date": "2026-03-18",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-18",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-03-19",
+      "series_name": "treasury_10y",
+      "value": 4.25
+    },
+    {
+      "date": "2026-03-19",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-19",
+      "series_name": "mortgage_30y",
+      "value": 6.22
+    },
+    {
+      "date": "2026-03-19",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-03-20",
+      "series_name": "treasury_10y",
+      "value": 4.39
+    },
+    {
+      "date": "2026-03-20",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-20",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-03-23",
+      "series_name": "treasury_10y",
+      "value": 4.34
+    },
+    {
+      "date": "2026-03-23",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-23",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-03-24",
+      "series_name": "treasury_10y",
+      "value": 4.39
+    },
+    {
+      "date": "2026-03-24",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-24",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-03-25",
+      "series_name": "treasury_10y",
+      "value": 4.33
+    },
+    {
+      "date": "2026-03-25",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-25",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-03-26",
+      "series_name": "treasury_10y",
+      "value": 4.42
+    },
+    {
+      "date": "2026-03-26",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-26",
+      "series_name": "mortgage_30y",
+      "value": 6.38
+    },
+    {
+      "date": "2026-03-26",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-03-27",
+      "series_name": "treasury_10y",
+      "value": 4.44
+    },
+    {
+      "date": "2026-03-27",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-27",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-03-30",
+      "series_name": "treasury_10y",
+      "value": 4.35
+    },
+    {
+      "date": "2026-03-30",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-30",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-03-31",
+      "series_name": "treasury_10y",
+      "value": 4.3
+    },
+    {
+      "date": "2026-03-31",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-03-31",
+      "series_name": "sofr",
+      "value": 3.68
+    },
+    {
+      "date": "2026-04-01",
+      "series_name": "treasury_10y",
+      "value": 4.33
+    },
+    {
+      "date": "2026-04-01",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-01",
+      "series_name": "fed_funds",
+      "value": 3.64
+    },
+    {
+      "date": "2026-04-01",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-04-02",
+      "series_name": "treasury_10y",
+      "value": 4.31
+    },
+    {
+      "date": "2026-04-02",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-02",
+      "series_name": "mortgage_30y",
+      "value": 6.46
+    },
+    {
+      "date": "2026-04-02",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-04-03",
+      "series_name": "treasury_10y",
+      "value": 4.35
+    },
+    {
+      "date": "2026-04-03",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-06",
+      "series_name": "treasury_10y",
+      "value": 4.34
+    },
+    {
+      "date": "2026-04-06",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-06",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-04-07",
+      "series_name": "treasury_10y",
+      "value": 4.33
+    },
+    {
+      "date": "2026-04-07",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-07",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-04-08",
+      "series_name": "treasury_10y",
+      "value": 4.29
+    },
+    {
+      "date": "2026-04-08",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-08",
+      "series_name": "sofr",
+      "value": 3.59
+    },
+    {
+      "date": "2026-04-09",
+      "series_name": "treasury_10y",
+      "value": 4.29
+    },
+    {
+      "date": "2026-04-09",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-09",
+      "series_name": "mortgage_30y",
+      "value": 6.37
+    },
+    {
+      "date": "2026-04-09",
+      "series_name": "sofr",
+      "value": 3.57
+    },
+    {
+      "date": "2026-04-10",
+      "series_name": "treasury_10y",
+      "value": 4.31
+    },
+    {
+      "date": "2026-04-10",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-10",
+      "series_name": "sofr",
+      "value": 3.61
+    },
+    {
+      "date": "2026-04-13",
+      "series_name": "treasury_10y",
+      "value": 4.3
+    },
+    {
+      "date": "2026-04-13",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-13",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-04-14",
+      "series_name": "treasury_10y",
+      "value": 4.26
+    },
+    {
+      "date": "2026-04-14",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-14",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-04-15",
+      "series_name": "treasury_10y",
+      "value": 4.29
+    },
+    {
+      "date": "2026-04-15",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-15",
+      "series_name": "sofr",
+      "value": 3.72
+    },
+    {
+      "date": "2026-04-16",
+      "series_name": "treasury_10y",
+      "value": 4.32
+    },
+    {
+      "date": "2026-04-16",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-16",
+      "series_name": "mortgage_30y",
+      "value": 6.3
+    },
+    {
+      "date": "2026-04-16",
+      "series_name": "sofr",
+      "value": 3.67
+    },
+    {
+      "date": "2026-04-17",
+      "series_name": "treasury_10y",
+      "value": 4.26
+    },
+    {
+      "date": "2026-04-17",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-17",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-04-20",
+      "series_name": "treasury_10y",
+      "value": 4.26
+    },
+    {
+      "date": "2026-04-20",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-20",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-04-21",
+      "series_name": "treasury_10y",
+      "value": 4.3
+    },
+    {
+      "date": "2026-04-21",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-21",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-04-22",
+      "series_name": "treasury_10y",
+      "value": 4.3
+    },
+    {
+      "date": "2026-04-22",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-22",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-04-23",
+      "series_name": "treasury_10y",
+      "value": 4.34
+    },
+    {
+      "date": "2026-04-23",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-23",
+      "series_name": "mortgage_30y",
+      "value": 6.23
+    },
+    {
+      "date": "2026-04-23",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-04-24",
+      "series_name": "treasury_10y",
+      "value": 4.31
+    },
+    {
+      "date": "2026-04-24",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-24",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-04-27",
+      "series_name": "treasury_10y",
+      "value": 4.35
+    },
+    {
+      "date": "2026-04-27",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-27",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-04-28",
+      "series_name": "treasury_10y",
+      "value": 4.36
+    },
+    {
+      "date": "2026-04-28",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-28",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-04-29",
+      "series_name": "treasury_10y",
+      "value": 4.42
+    },
+    {
+      "date": "2026-04-29",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-29",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-04-30",
+      "series_name": "treasury_10y",
+      "value": 4.4
+    },
+    {
+      "date": "2026-04-30",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-04-30",
+      "series_name": "mortgage_30y",
+      "value": 6.3
+    },
+    {
+      "date": "2026-04-30",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-05-01",
+      "series_name": "treasury_10y",
+      "value": 4.39
+    },
+    {
+      "date": "2026-05-01",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-01",
+      "series_name": "fed_funds",
+      "value": 3.63
+    },
+    {
+      "date": "2026-05-01",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-05-04",
+      "series_name": "treasury_10y",
+      "value": 4.45
+    },
+    {
+      "date": "2026-05-04",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-04",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-05-05",
+      "series_name": "treasury_10y",
+      "value": 4.43
+    },
+    {
+      "date": "2026-05-05",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-05",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-05-06",
+      "series_name": "treasury_10y",
+      "value": 4.36
+    },
+    {
+      "date": "2026-05-06",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-06",
+      "series_name": "sofr",
+      "value": 3.61
+    },
+    {
+      "date": "2026-05-07",
+      "series_name": "treasury_10y",
+      "value": 4.41
+    },
+    {
+      "date": "2026-05-07",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-07",
+      "series_name": "mortgage_30y",
+      "value": 6.37
+    },
+    {
+      "date": "2026-05-07",
+      "series_name": "sofr",
+      "value": 3.6
+    },
+    {
+      "date": "2026-05-08",
+      "series_name": "treasury_10y",
+      "value": 4.38
+    },
+    {
+      "date": "2026-05-08",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-08",
+      "series_name": "sofr",
+      "value": 3.6
+    },
+    {
+      "date": "2026-05-11",
+      "series_name": "treasury_10y",
+      "value": 4.42
+    },
+    {
+      "date": "2026-05-11",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-11",
+      "series_name": "sofr",
+      "value": 3.6
+    },
+    {
+      "date": "2026-05-12",
+      "series_name": "treasury_10y",
+      "value": 4.46
+    },
+    {
+      "date": "2026-05-12",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-12",
+      "series_name": "sofr",
+      "value": 3.6
+    },
+    {
+      "date": "2026-05-13",
+      "series_name": "treasury_10y",
+      "value": 4.46
+    },
+    {
+      "date": "2026-05-13",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-13",
+      "series_name": "sofr",
+      "value": 3.59
+    },
+    {
+      "date": "2026-05-14",
+      "series_name": "treasury_10y",
+      "value": 4.47
+    },
+    {
+      "date": "2026-05-14",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-14",
+      "series_name": "mortgage_30y",
+      "value": 6.36
+    },
+    {
+      "date": "2026-05-14",
+      "series_name": "sofr",
+      "value": 3.56
+    },
+    {
+      "date": "2026-05-15",
+      "series_name": "treasury_10y",
+      "value": 4.59
+    },
+    {
+      "date": "2026-05-15",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-15",
+      "series_name": "sofr",
+      "value": 3.55
+    },
+    {
+      "date": "2026-05-18",
+      "series_name": "treasury_10y",
+      "value": 4.61
+    },
+    {
+      "date": "2026-05-18",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-18",
+      "series_name": "sofr",
+      "value": 3.53
+    },
+    {
+      "date": "2026-05-19",
+      "series_name": "treasury_10y",
+      "value": 4.67
+    },
+    {
+      "date": "2026-05-19",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-19",
+      "series_name": "sofr",
+      "value": 3.51
+    },
+    {
+      "date": "2026-05-20",
+      "series_name": "treasury_10y",
+      "value": 4.57
+    },
+    {
+      "date": "2026-05-20",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-20",
+      "series_name": "sofr",
+      "value": 3.5
+    },
+    {
+      "date": "2026-05-21",
+      "series_name": "treasury_10y",
+      "value": 4.57
+    },
+    {
+      "date": "2026-05-21",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-21",
+      "series_name": "mortgage_30y",
+      "value": 6.51
+    },
+    {
+      "date": "2026-05-21",
+      "series_name": "sofr",
+      "value": 3.51
+    },
+    {
+      "date": "2026-05-22",
+      "series_name": "treasury_10y",
+      "value": 4.56
+    },
+    {
+      "date": "2026-05-22",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-22",
+      "series_name": "sofr",
+      "value": 3.55
+    },
+    {
+      "date": "2026-05-25",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-26",
+      "series_name": "treasury_10y",
+      "value": 4.5
+    },
+    {
+      "date": "2026-05-26",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-26",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-05-27",
+      "series_name": "treasury_10y",
+      "value": 4.48
+    },
+    {
+      "date": "2026-05-27",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-27",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-05-28",
+      "series_name": "treasury_10y",
+      "value": 4.45
+    },
+    {
+      "date": "2026-05-28",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-28",
+      "series_name": "mortgage_30y",
+      "value": 6.53
+    },
+    {
+      "date": "2026-05-28",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-05-29",
+      "series_name": "treasury_10y",
+      "value": 4.45
+    },
+    {
+      "date": "2026-05-29",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-05-29",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-06-01",
+      "series_name": "treasury_10y",
+      "value": 4.47
+    },
+    {
+      "date": "2026-06-01",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-01",
+      "series_name": "fed_funds",
+      "value": 3.63
+    },
+    {
+      "date": "2026-06-01",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-06-02",
+      "series_name": "treasury_10y",
+      "value": 4.46
+    },
+    {
+      "date": "2026-06-02",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-02",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-06-03",
+      "series_name": "treasury_10y",
+      "value": 4.49
+    },
+    {
+      "date": "2026-06-03",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-03",
+      "series_name": "sofr",
+      "value": 3.61
+    },
+    {
+      "date": "2026-06-04",
+      "series_name": "treasury_10y",
+      "value": 4.47
+    },
+    {
+      "date": "2026-06-04",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-04",
+      "series_name": "mortgage_30y",
+      "value": 6.48
+    },
+    {
+      "date": "2026-06-04",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-06-05",
+      "series_name": "treasury_10y",
+      "value": 4.55
+    },
+    {
+      "date": "2026-06-05",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-05",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-06-08",
+      "series_name": "treasury_10y",
+      "value": 4.56
+    },
+    {
+      "date": "2026-06-08",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-08",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-06-09",
+      "series_name": "treasury_10y",
+      "value": 4.53
+    },
+    {
+      "date": "2026-06-09",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-09",
+      "series_name": "sofr",
+      "value": 3.6
+    },
+    {
+      "date": "2026-06-10",
+      "series_name": "treasury_10y",
+      "value": 4.55
+    },
+    {
+      "date": "2026-06-10",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-10",
+      "series_name": "sofr",
+      "value": 3.59
+    },
+    {
+      "date": "2026-06-11",
+      "series_name": "treasury_10y",
+      "value": 4.45
+    },
+    {
+      "date": "2026-06-11",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-11",
+      "series_name": "mortgage_30y",
+      "value": 6.52
+    },
+    {
+      "date": "2026-06-11",
+      "series_name": "sofr",
+      "value": 3.6
+    },
+    {
+      "date": "2026-06-12",
+      "series_name": "treasury_10y",
+      "value": 4.48
+    },
+    {
+      "date": "2026-06-12",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-12",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-06-15",
+      "series_name": "treasury_10y",
+      "value": 4.47
+    },
+    {
+      "date": "2026-06-15",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-15",
+      "series_name": "sofr",
+      "value": 3.69
+    },
+    {
+      "date": "2026-06-16",
+      "series_name": "treasury_10y",
+      "value": 4.43
+    },
+    {
+      "date": "2026-06-16",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-16",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-06-17",
+      "series_name": "treasury_10y",
+      "value": 4.49
+    },
+    {
+      "date": "2026-06-17",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-17",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-06-18",
+      "series_name": "treasury_10y",
+      "value": 4.46
+    },
+    {
+      "date": "2026-06-18",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-18",
+      "series_name": "mortgage_30y",
+      "value": 6.47
+    },
+    {
+      "date": "2026-06-18",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-06-22",
+      "series_name": "treasury_10y",
+      "value": 4.51
+    },
+    {
+      "date": "2026-06-22",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-22",
+      "series_name": "sofr",
+      "value": 3.61
+    },
+    {
+      "date": "2026-06-23",
+      "series_name": "treasury_10y",
+      "value": 4.5
+    },
+    {
+      "date": "2026-06-23",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-23",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-06-24",
+      "series_name": "treasury_10y",
+      "value": 4.41
+    },
+    {
+      "date": "2026-06-24",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-24",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-06-25",
+      "series_name": "treasury_10y",
+      "value": 4.4
+    },
+    {
+      "date": "2026-06-25",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-25",
+      "series_name": "mortgage_30y",
+      "value": 6.49
+    },
+    {
+      "date": "2026-06-25",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-06-26",
+      "series_name": "treasury_10y",
+      "value": 4.38
+    },
+    {
+      "date": "2026-06-26",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-26",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-06-29",
+      "series_name": "treasury_10y",
+      "value": 4.38
+    },
+    {
+      "date": "2026-06-29",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-29",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-06-30",
+      "series_name": "treasury_10y",
+      "value": 4.44
+    },
+    {
+      "date": "2026-06-30",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-06-30",
+      "series_name": "sofr",
+      "value": 3.68
+    },
+    {
+      "date": "2026-07-01",
+      "series_name": "treasury_10y",
+      "value": 4.48
+    },
+    {
+      "date": "2026-07-01",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-01",
+      "series_name": "fed_funds",
+      "value": 3.63
+    },
+    {
+      "date": "2026-07-01",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-07-02",
+      "series_name": "treasury_10y",
+      "value": 4.49
+    },
+    {
+      "date": "2026-07-02",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-02",
+      "series_name": "mortgage_30y",
+      "value": 6.43
+    },
+    {
+      "date": "2026-07-02",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-07-03",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-06",
+      "series_name": "treasury_10y",
+      "value": 4.48
+    },
+    {
+      "date": "2026-07-06",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-06",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-07-07",
+      "series_name": "treasury_10y",
+      "value": 4.55
+    },
+    {
+      "date": "2026-07-07",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-07",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-07-08",
+      "series_name": "treasury_10y",
+      "value": 4.56
+    },
+    {
+      "date": "2026-07-08",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-08",
+      "series_name": "sofr",
+      "value": 3.58
+    },
+    {
+      "date": "2026-07-09",
+      "series_name": "treasury_10y",
+      "value": 4.54
+    },
+    {
+      "date": "2026-07-09",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-09",
+      "series_name": "mortgage_30y",
+      "value": 6.49
+    },
+    {
+      "date": "2026-07-09",
+      "series_name": "sofr",
+      "value": 3.53
+    },
+    {
+      "date": "2026-07-10",
+      "series_name": "treasury_10y",
+      "value": 4.56
+    },
+    {
+      "date": "2026-07-10",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-10",
+      "series_name": "sofr",
+      "value": 3.55
+    },
+    {
+      "date": "2026-07-13",
+      "series_name": "treasury_10y",
+      "value": 4.62
+    },
+    {
+      "date": "2026-07-13",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-13",
+      "series_name": "sofr",
+      "value": 3.6
+    },
+    {
+      "date": "2026-07-14",
+      "series_name": "treasury_10y",
+      "value": 4.58
+    },
+    {
+      "date": "2026-07-14",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-14",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-07-15",
+      "series_name": "treasury_10y",
+      "value": 4.55
+    },
+    {
+      "date": "2026-07-15",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-15",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-07-16",
+      "series_name": "treasury_10y",
+      "value": 4.57
+    },
+    {
+      "date": "2026-07-16",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-16",
+      "series_name": "mortgage_30y",
+      "value": 6.55
+    },
+    {
+      "date": "2026-07-16",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-07-17",
+      "series_name": "treasury_10y",
+      "value": 4.55
+    },
+    {
+      "date": "2026-07-17",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-17",
+      "series_name": "sofr",
+      "value": 3.59
+    },
+    {
+      "date": "2026-07-20",
+      "series_name": "treasury_10y",
+      "value": 4.6
+    },
+    {
+      "date": "2026-07-20",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-20",
+      "series_name": "sofr",
+      "value": 3.57
+    },
+    {
+      "date": "2026-07-21",
+      "series_name": "treasury_10y",
+      "value": 4.63
+    },
+    {
+      "date": "2026-07-21",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-21",
+      "series_name": "sofr",
+      "value": 3.61
+    },
+    {
+      "date": "2026-07-22",
+      "series_name": "treasury_10y",
+      "value": 4.67
+    },
+    {
+      "date": "2026-07-22",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-22",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-07-23",
+      "series_name": "treasury_10y",
+      "value": 4.71
+    },
+    {
+      "date": "2026-07-23",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-23",
+      "series_name": "mortgage_30y",
+      "value": 6.58
+    },
+    {
+      "date": "2026-07-23",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-07-24",
+      "series_name": "treasury_10y",
+      "value": 4.69
+    },
+    {
+      "date": "2026-07-24",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-24",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-07-27",
+      "series_name": "treasury_10y",
+      "value": 4.65
+    },
+    {
+      "date": "2026-07-27",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-27",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-07-28",
+      "series_name": "treasury_10y",
+      "value": 4.61
+    },
+    {
+      "date": "2026-07-28",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-28",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-07-29",
+      "series_name": "treasury_10y",
+      "value": 4.67
+    },
+    {
+      "date": "2026-07-29",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-29",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-07-30",
+      "series_name": "treasury_10y",
+      "value": 4.68
+    },
+    {
+      "date": "2026-07-30",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-30",
+      "series_name": "mortgage_30y",
+      "value": 6.66
+    },
+    {
+      "date": "2026-07-30",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-07-31",
+      "series_name": "treasury_10y",
+      "value": 4.75
+    },
+    {
+      "date": "2026-07-31",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-07-31",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-08-01",
+      "series_name": "fed_funds",
+      "value": 3.63
+    },
+    {
+      "date": "2026-08-03",
+      "series_name": "treasury_10y",
+      "value": 4.7
+    },
+    {
+      "date": "2026-08-03",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-03",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-08-04",
+      "series_name": "treasury_10y",
+      "value": 4.63
+    },
+    {
+      "date": "2026-08-04",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-04",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-08-05",
+      "series_name": "treasury_10y",
+      "value": 4.63
+    },
+    {
+      "date": "2026-08-05",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-05",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-08-06",
+      "series_name": "treasury_10y",
+      "value": 4.69
+    },
+    {
+      "date": "2026-08-06",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-06",
+      "series_name": "mortgage_30y",
+      "value": 6.69
+    },
+    {
+      "date": "2026-08-06",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-08-07",
+      "series_name": "treasury_10y",
+      "value": 4.65
+    },
+    {
+      "date": "2026-08-07",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-07",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-08-10",
+      "series_name": "treasury_10y",
+      "value": 4.72
+    },
+    {
+      "date": "2026-08-10",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-10",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-08-11",
+      "series_name": "treasury_10y",
+      "value": 4.7
+    },
+    {
+      "date": "2026-08-11",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-11",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-08-12",
+      "series_name": "treasury_10y",
+      "value": 4.68
+    },
+    {
+      "date": "2026-08-12",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-12",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-08-13",
+      "series_name": "treasury_10y",
+      "value": 4.63
+    },
+    {
+      "date": "2026-08-13",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-13",
+      "series_name": "mortgage_30y",
+      "value": 6.67
+    },
+    {
+      "date": "2026-08-13",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-08-14",
+      "series_name": "treasury_10y",
+      "value": 4.68
+    },
+    {
+      "date": "2026-08-14",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-14",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-08-17",
+      "series_name": "treasury_10y",
+      "value": 4.72
+    },
+    {
+      "date": "2026-08-17",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-17",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-08-18",
+      "series_name": "treasury_10y",
+      "value": 4.71
+    },
+    {
+      "date": "2026-08-18",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-18",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-08-19",
+      "series_name": "treasury_10y",
+      "value": 4.65
+    },
+    {
+      "date": "2026-08-19",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-19",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-08-20",
+      "series_name": "treasury_10y",
+      "value": 4.69
+    },
+    {
+      "date": "2026-08-20",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-20",
+      "series_name": "mortgage_30y",
+      "value": 6.65
+    },
+    {
+      "date": "2026-08-20",
+      "series_name": "sofr",
+      "value": 3.63
+    },
+    {
+      "date": "2026-08-21",
+      "series_name": "treasury_10y",
+      "value": 4.74
+    },
+    {
+      "date": "2026-08-21",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-21",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-08-24",
+      "series_name": "treasury_10y",
+      "value": 4.7
+    },
+    {
+      "date": "2026-08-24",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-24",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-08-25",
+      "series_name": "treasury_10y",
+      "value": 4.64
+    },
+    {
+      "date": "2026-08-25",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-25",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-08-26",
+      "series_name": "treasury_10y",
+      "value": 4.66
+    },
+    {
+      "date": "2026-08-26",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-26",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-08-27",
+      "series_name": "treasury_10y",
+      "value": 4.67
+    },
+    {
+      "date": "2026-08-27",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-27",
+      "series_name": "mortgage_30y",
+      "value": 6.66
+    },
+    {
+      "date": "2026-08-27",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-08-28",
+      "series_name": "treasury_10y",
+      "value": 4.73
+    },
+    {
+      "date": "2026-08-28",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-28",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-08-31",
+      "series_name": "treasury_10y",
+      "value": 4.75
+    },
+    {
+      "date": "2026-08-31",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-08-31",
+      "series_name": "sofr",
+      "value": 3.68
+    },
+    {
+      "date": "2026-09-01",
+      "series_name": "treasury_10y",
+      "value": 4.79
+    },
+    {
+      "date": "2026-09-01",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-09-01",
+      "series_name": "fed_funds",
+      "value": 3.75
+    },
+    {
+      "date": "2026-09-01",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-09-02",
+      "series_name": "treasury_10y",
+      "value": 4.79
+    },
+    {
+      "date": "2026-09-02",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-09-02",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-09-03",
+      "series_name": "treasury_10y",
+      "value": 4.77
+    },
+    {
+      "date": "2026-09-03",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-09-03",
+      "series_name": "mortgage_30y",
+      "value": 6.71
+    },
+    {
+      "date": "2026-09-03",
+      "series_name": "sofr",
+      "value": 3.66
+    },
+    {
+      "date": "2026-09-04",
+      "series_name": "treasury_10y",
+      "value": 4.78
+    },
+    {
+      "date": "2026-09-04",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-09-04",
+      "series_name": "sofr",
+      "value": 3.65
+    },
+    {
+      "date": "2026-09-07",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-09-08",
+      "series_name": "treasury_10y",
+      "value": 4.8
+    },
+    {
+      "date": "2026-09-08",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-09-08",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-09-09",
+      "series_name": "treasury_10y",
+      "value": 4.83
+    },
+    {
+      "date": "2026-09-09",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-09-09",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-09-10",
+      "series_name": "treasury_10y",
+      "value": 4.95
+    },
+    {
+      "date": "2026-09-10",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-09-10",
+      "series_name": "mortgage_30y",
+      "value": 6.76
+    },
+    {
+      "date": "2026-09-10",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-09-11",
+      "series_name": "treasury_10y",
+      "value": 4.96
+    },
+    {
+      "date": "2026-09-11",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-09-11",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-09-14",
+      "series_name": "treasury_10y",
+      "value": 4.97
+    },
+    {
+      "date": "2026-09-14",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-09-14",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-09-15",
+      "series_name": "treasury_10y",
+      "value": 5.0
+    },
+    {
+      "date": "2026-09-15",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-09-15",
+      "series_name": "sofr",
+      "value": 3.64
+    },
+    {
+      "date": "2026-09-16",
+      "series_name": "treasury_10y",
+      "value": 5.01
+    },
+    {
+      "date": "2026-09-16",
+      "series_name": "prime_rate",
+      "value": 6.75
+    },
+    {
+      "date": "2026-09-16",
+      "series_name": "sofr",
+      "value": 3.62
+    },
+    {
+      "date": "2026-09-17",
+      "series_name": "treasury_10y",
+      "value": 4.94
+    },
+    {
+      "date": "2026-09-17",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-09-17",
+      "series_name": "mortgage_30y",
+      "value": 6.95
+    },
+    {
+      "date": "2026-09-17",
+      "series_name": "sofr",
+      "value": 3.85
+    },
+    {
+      "date": "2026-09-18",
+      "series_name": "treasury_10y",
+      "value": 5.01
+    },
+    {
+      "date": "2026-09-18",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-09-18",
+      "series_name": "sofr",
+      "value": 3.85
+    },
+    {
+      "date": "2026-09-21",
+      "series_name": "treasury_10y",
+      "value": 4.96
+    },
+    {
+      "date": "2026-09-21",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-09-21",
+      "series_name": "sofr",
+      "value": 3.85
+    },
+    {
+      "date": "2026-09-22",
+      "series_name": "treasury_10y",
+      "value": 4.96
+    },
+    {
+      "date": "2026-09-22",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-09-22",
+      "series_name": "sofr",
+      "value": 3.87
+    },
+    {
+      "date": "2026-09-23",
+      "series_name": "treasury_10y",
+      "value": 5.11
+    },
+    {
+      "date": "2026-09-23",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-09-23",
+      "series_name": "sofr",
+      "value": 3.87
+    },
+    {
+      "date": "2026-09-24",
+      "series_name": "treasury_10y",
+      "value": 5.18
+    },
+    {
+      "date": "2026-09-24",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-09-24",
+      "series_name": "mortgage_30y",
+      "value": 7.03
+    },
+    {
+      "date": "2026-09-24",
+      "series_name": "sofr",
+      "value": 3.88
+    },
+    {
+      "date": "2026-09-25",
+      "series_name": "treasury_10y",
+      "value": 5.17
+    },
+    {
+      "date": "2026-09-25",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-09-25",
+      "series_name": "sofr",
+      "value": 3.9
+    },
+    {
+      "date": "2026-09-28",
+      "series_name": "treasury_10y",
+      "value": 5.24
+    },
+    {
+      "date": "2026-09-28",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-09-28",
+      "series_name": "sofr",
+      "value": 3.9
+    },
+    {
+      "date": "2026-09-29",
+      "series_name": "treasury_10y",
+      "value": 5.26
+    },
+    {
+      "date": "2026-09-29",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-09-29",
+      "series_name": "sofr",
+      "value": 3.88
+    },
+    {
+      "date": "2026-09-30",
+      "series_name": "treasury_10y",
+      "value": 5.29
+    },
+    {
+      "date": "2026-09-30",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-09-30",
+      "series_name": "sofr",
+      "value": 3.9
+    },
+    {
+      "date": "2026-10-01",
+      "series_name": "treasury_10y",
+      "value": 5.24
+    },
+    {
+      "date": "2026-10-01",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-01",
+      "series_name": "fed_funds",
+      "value": 3.88
+    },
+    {
+      "date": "2026-10-01",
+      "series_name": "mortgage_30y",
+      "value": 7.28
+    },
+    {
+      "date": "2026-10-01",
+      "series_name": "sofr",
+      "value": 3.87
+    },
+    {
+      "date": "2026-10-02",
+      "series_name": "treasury_10y",
+      "value": 5.28
+    },
+    {
+      "date": "2026-10-02",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-02",
+      "series_name": "sofr",
+      "value": 3.88
+    },
+    {
+      "date": "2026-10-05",
+      "series_name": "treasury_10y",
+      "value": 5.31
+    },
+    {
+      "date": "2026-10-05",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-05",
+      "series_name": "sofr",
+      "value": 3.89
+    },
+    {
+      "date": "2026-10-06",
+      "series_name": "treasury_10y",
+      "value": 5.27
+    },
+    {
+      "date": "2026-10-06",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-06",
+      "series_name": "sofr",
+      "value": 3.9
+    },
+    {
+      "date": "2026-10-07",
+      "series_name": "treasury_10y",
+      "value": 5.28
+    },
+    {
+      "date": "2026-10-07",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-07",
+      "series_name": "sofr",
+      "value": 3.88
+    },
+    {
+      "date": "2026-10-08",
+      "series_name": "treasury_10y",
+      "value": 5.22
+    },
+    {
+      "date": "2026-10-08",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-08",
+      "series_name": "mortgage_30y",
+      "value": 7.4
+    },
+    {
+      "date": "2026-10-08",
+      "series_name": "sofr",
+      "value": 3.87
+    },
+    {
+      "date": "2026-10-09",
+      "series_name": "treasury_10y",
+      "value": 5.24
+    },
+    {
+      "date": "2026-10-09",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-09",
+      "series_name": "sofr",
+      "value": 3.87
+    },
+    {
+      "date": "2026-10-12",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-13",
+      "series_name": "treasury_10y",
+      "value": 5.21
+    },
+    {
+      "date": "2026-10-13",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-13",
+      "series_name": "sofr",
+      "value": 3.89
+    },
+    {
+      "date": "2026-10-14",
+      "series_name": "treasury_10y",
+      "value": 5.19
+    },
+    {
+      "date": "2026-10-14",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-14",
+      "series_name": "sofr",
+      "value": 3.88
+    },
+    {
+      "date": "2026-10-15",
+      "series_name": "treasury_10y",
+      "value": 5.1
+    },
+    {
+      "date": "2026-10-15",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-15",
+      "series_name": "mortgage_30y",
+      "value": 7.4
+    },
+    {
+      "date": "2026-10-15",
+      "series_name": "sofr",
+      "value": 3.89
+    },
+    {
+      "date": "2026-10-16",
+      "series_name": "treasury_10y",
+      "value": 5.09
+    },
+    {
+      "date": "2026-10-16",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-16",
+      "series_name": "sofr",
+      "value": 3.88
+    },
+    {
+      "date": "2026-10-19",
+      "series_name": "treasury_10y",
+      "value": 5.15
+    },
+    {
+      "date": "2026-10-19",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-19",
+      "series_name": "sofr",
+      "value": 3.87
+    },
+    {
+      "date": "2026-10-20",
+      "series_name": "treasury_10y",
+      "value": 5.12
+    },
+    {
+      "date": "2026-10-20",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-20",
+      "series_name": "sofr",
+      "value": 3.88
+    },
+    {
+      "date": "2026-10-21",
+      "series_name": "treasury_10y",
+      "value": 5.13
+    },
+    {
+      "date": "2026-10-21",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-21",
+      "series_name": "sofr",
+      "value": 3.88
+    },
+    {
+      "date": "2026-10-22",
+      "series_name": "treasury_10y",
+      "value": 4.96
+    },
+    {
+      "date": "2026-10-22",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-22",
+      "series_name": "mortgage_30y",
+      "value": 7.32
+    },
+    {
+      "date": "2026-10-22",
+      "series_name": "sofr",
+      "value": 3.9
+    },
+    {
+      "date": "2026-10-23",
+      "series_name": "treasury_10y",
+      "value": 5.0
+    },
+    {
+      "date": "2026-10-23",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-23",
+      "series_name": "sofr",
+      "value": 3.92
+    },
+    {
+      "date": "2026-10-26",
+      "series_name": "treasury_10y",
+      "value": 5.0
+    },
+    {
+      "date": "2026-10-26",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-26",
+      "series_name": "sofr",
+      "value": 3.93
+    },
+    {
+      "date": "2026-10-27",
+      "series_name": "treasury_10y",
+      "value": 4.99
+    },
+    {
+      "date": "2026-10-27",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-10-27",
+      "series_name": "sofr",
+      "value": 3.95
+    },
+    {
+      "date": "2026-10-28",
+      "series_name": "treasury_10y",
+      "value": 5.05
+    },
+    {
+      "date": "2026-10-28",
+      "series_name": "sofr",
+      "value": 3.94
+    },
+    {
+      "date": "2026-10-29",
+      "series_name": "treasury_10y",
+      "value": 4.98
+    },
+    {
+      "date": "2026-10-29",
+      "series_name": "mortgage_30y",
+      "value": 7.24
+    },
+    {
+      "date": "2026-10-29",
+      "series_name": "sofr",
+      "value": 3.94
+    },
+    {
+      "date": "2026-10-30",
+      "series_name": "treasury_10y",
+      "value": 4.94
+    },
+    {
+      "date": "2026-10-30",
+      "series_name": "sofr",
+      "value": 3.95
+    },
+    {
+      "date": "2026-11-02",
+      "series_name": "treasury_10y",
+      "value": 4.91
+    },
+    {
+      "date": "2026-11-02",
+      "series_name": "sofr",
+      "value": 3.95
+    },
+    {
+      "date": "2026-11-03",
+      "series_name": "treasury_10y",
+      "value": 4.95
+    },
+    {
+      "date": "2026-11-03",
+      "series_name": "sofr",
+      "value": 3.97
+    },
+    {
+      "date": "2026-11-04",
+      "series_name": "treasury_10y",
+      "value": 4.9
+    },
+    {
+      "date": "2026-11-04",
+      "series_name": "sofr",
+      "value": 3.94
+    },
+    {
+      "date": "2026-11-05",
+      "series_name": "mortgage_30y",
+      "value": 7.18
+    },
+    {
+      "date": "2026-11-05",
+      "series_name": "sofr",
+      "value": 3.92
+    }
+  ],
   "fx_latest": [
     {
       "currency": "AUD",
@@ -3024,8 +7116,8 @@
     }
   ],
   "quality": {
-    "overall_score": 75.0,
-    "status": "warn",
+    "overall_score": 95.0,
+    "status": "pass",
     "datasets": [
       {
         "dataset": "fx_rates",
@@ -3048,22 +7140,30 @@
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-06T16:57:10.739520Z"
+        "checked_at": "2026-11-06T17:33:56.358063Z"
       },
       {
         "dataset": "interest_rates",
-        "row_count": 0,
+        "row_count": 2454,
         "column_count": 5,
-        "missing_values": {},
-        "duplicate_rows": 0,
-        "odd_values": {},
-        "freshness": {
-          "latest_date": null,
-          "days_stale": null,
-          "status": "unknown"
+        "missing_values": {
+          "date": 0,
+          "series_id": 0,
+          "series_name": 0,
+          "value": 0,
+          "source": 0
         },
-        "quality_score": 0.0,
-        "checked_at": "2026-11-06T16:57:10.739622Z"
+        "duplicate_rows": 0,
+        "odd_values": {
+          "value": 0
+        },
+        "freshness": {
+          "latest_date": "2026-11-05",
+          "days_stale": 1,
+          "status": "fresh"
+        },
+        "quality_score": 100.0,
+        "checked_at": "2026-11-06T17:33:56.362059Z"
       },
       {
         "dataset": "treasury_rates",
@@ -3085,7 +7185,7 @@
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-06T16:57:10.741448Z"
+        "checked_at": "2026-11-06T17:33:56.363568Z"
       },
       {
         "dataset": "bank_financials",
@@ -3121,7 +7221,7 @@
           "status": "stale"
         },
         "quality_score": 74.9,
-        "checked_at": "2026-11-06T16:57:10.751959Z"
+        "checked_at": "2026-11-06T17:33:56.380101Z"
       },
       {
         "dataset": "world_bank_indicators",
@@ -3146,7 +7246,7 @@
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-06T16:57:10.753551Z"
+        "checked_at": "2026-11-06T17:33:56.381099Z"
       }
     ]
   }

@@ -1,14 +1,14 @@
 {
-  "run_id": "20261106T165703Z-66bf7102",
-  "generated_at": "2026-11-06T16:57:10.796067Z",
+  "run_id": "20261106T173333Z-1ed0e82a",
+  "generated_at": "2026-11-06T17:33:56.776965Z",
   "sources": {
     "frankfurter": 2048,
-    "fred": 0,
+    "fred": 2454,
     "treasury": 214,
     "fdic": 10000,
     "world_bank": 60
   },
   "fred_key_present": true,
-  "quality_status": "warn",
-  "overall_quality_score": 75.0
+  "quality_status": "pass",
+  "overall_quality_score": 95.0
 }
