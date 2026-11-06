@@ -85,28 +85,66 @@
       .map((r) => `<span class="pill">${r.currency} ${Number(r.rate).toFixed(r.currency === "JPY" ? 2 : 4)}</span>`)
       .join("");
 
+    // Group history; keep chronological order per currency
     const byCcy = {};
     (history || []).forEach((row) => {
       (byCcy[row.currency] ||= []).push(row);
     });
-    const datasets = Object.keys(byCcy).map((ccy, i) => ({
-      label: ccy,
-      data: byCcy[ccy].map((r) => ({ x: r.date, y: r.rate })),
-      borderColor: COLORS[i % COLORS.length],
-      tension: 0.25,
-      pointRadius: 0,
-      borderWidth: 2,
-    }));
+    Object.values(byCcy).forEach((rows) => rows.sort((a, b) => String(a.date).localeCompare(String(b.date))));
+
+    // Index each series to 100 at first observation so EUR/GBP (~0.8) stay
+    // visible alongside INR/JPY (~90–160) on one chart.
+    const preferred = ["EUR", "GBP", "INR", "JPY"];
+    const order = preferred.filter((c) => byCcy[c]).concat(Object.keys(byCcy).filter((c) => !preferred.includes(c)).sort());
+    const baseRate = {};
+    const datasets = order.map((ccy, i) => {
+      const rows = byCcy[ccy];
+      const base = Number(rows[0]?.rate);
+      baseRate[ccy] = base > 0 ? base : null;
+      return {
+        label: ccy,
+        data: rows.map((r) => ({
+          x: r.date,
+          y: baseRate[ccy] ? (Number(r.rate) / baseRate[ccy]) * 100 : null,
+          raw: Number(r.rate),
+        })),
+        borderColor: COLORS[i % COLORS.length],
+        tension: 0.25,
+        pointRadius: 0,
+        borderWidth: 2,
+      };
+    });
+
     new Chart(document.getElementById("fxChart"), {
       type: "line",
       data: { datasets },
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        plugins: { legend: { position: "bottom", labels: { boxWidth: 10, usePointStyle: true } } },
+        interaction: { mode: "index", intersect: false },
+        plugins: {
+          legend: { position: "bottom", labels: { boxWidth: 10, usePointStyle: true } },
+          tooltip: {
+            callbacks: {
+              label: (c) => {
+                const raw = c.raw?.raw;
+                const idx = c.parsed.y;
+                const rawTxt =
+                  raw == null || Number.isNaN(raw)
+                    ? ""
+                    : ` · ${Number(raw).toFixed(c.dataset.label === "JPY" || c.dataset.label === "INR" ? 2 : 4)}`;
+                return `${c.dataset.label}: ${idx == null ? "—" : idx.toFixed(2)} (idx)${rawTxt}`;
+              },
+            },
+          },
+        },
         scales: {
           x: { ticks: { maxTicksLimit: 6 }, grid: { display: false } },
-          y: { grid: { color: "rgba(148,163,184,0.08)" } },
+          y: {
+            title: { display: true, text: "Index (start = 100)", color: "#8b9bb8", font: { size: 11 } },
+            grid: { color: "rgba(148,163,184,0.08)" },
+            ticks: { callback: (v) => Number(v).toFixed(0) },
+          },
         },
       },
     });
