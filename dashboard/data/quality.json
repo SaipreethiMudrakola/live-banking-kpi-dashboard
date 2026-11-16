@@ -1,10 +1,10 @@
 {
-  "overall_score": 75.0,
-  "status": "warn",
+  "overall_score": 93.0,
+  "status": "pass",
   "datasets": [
     {
       "dataset": "fx_rates",
-      "row_count": 2040,
+      "row_count": 2048,
       "column_count": 5,
       "missing_values": {
         "date": 0,
@@ -18,16 +18,16 @@
         "rate": 0
       },
       "freshness": {
-        "latest_date": "2026-11-13",
-        "days_stale": 2,
+        "latest_date": "2026-11-16",
+        "days_stale": 0,
         "status": "fresh"
       },
       "quality_score": 100.0,
-      "checked_at": "2026-11-15T18:29:09.556839Z"
+      "checked_at": "2026-11-16T21:35:12.517913Z"
     },
     {
       "dataset": "interest_rates",
-      "row_count": 2451,
+      "row_count": 2449,
       "column_count": 5,
       "missing_values": {
         "date": 0,
@@ -41,27 +41,34 @@
         "value": 0
       },
       "freshness": {
-        "latest_date": "2026-11-12",
+        "latest_date": "2026-11-13",
         "days_stale": 3,
         "status": "fresh"
       },
       "quality_score": 100.0,
-      "checked_at": "2026-11-15T18:29:09.558891Z"
+      "checked_at": "2026-11-16T21:35:12.520798Z"
     },
     {
       "dataset": "treasury_rates",
-      "row_count": 0,
-      "column_count": 0,
-      "missing_values": {},
-      "duplicate_rows": 0,
-      "odd_values": {},
-      "freshness": {
-        "latest_date": null,
-        "days_stale": null,
-        "status": "unknown"
+      "row_count": 214,
+      "column_count": 4,
+      "missing_values": {
+        "date": 0,
+        "security_desc": 0,
+        "avg_interest_rate_amt": 0,
+        "source": 0
       },
-      "quality_score": 0.0,
-      "checked_at": "2026-11-15T18:29:09.558943Z"
+      "duplicate_rows": 0,
+      "odd_values": {
+        "avg_interest_rate_amt": 0
+      },
+      "freshness": {
+        "latest_date": "2026-10-31",
+        "days_stale": 16,
+        "status": "aging"
+      },
+      "quality_score": 90.0,
+      "checked_at": "2026-11-16T21:35:12.522708Z"
     },
     {
       "dataset": "bank_financials",
@@ -93,11 +100,11 @@
       },
       "freshness": {
         "latest_date": "2026-06-30",
-        "days_stale": 138,
+        "days_stale": 139,
         "status": "stale"
       },
       "quality_score": 74.9,
-      "checked_at": "2026-11-15T18:29:09.566417Z"
+      "checked_at": "2026-11-16T21:35:12.532907Z"
     },
     {
       "dataset": "world_bank_indicators",
@@ -122,7 +129,7 @@
         "status": "fresh"
       },
       "quality_score": 100.0,
-      "checked_at": "2026-11-15T18:29:09.567560Z"
+      "checked_at": "2026-11-16T21:35:12.534769Z"
     }
   ]
 }

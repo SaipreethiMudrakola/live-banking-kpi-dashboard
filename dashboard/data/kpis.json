@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T18:29:09.609787Z",
+  "generated_at": "2026-11-16T21:35:12.589418Z",
   "rates": {
     "fed_funds": {
       "value": 3.88,
@@ -18,12 +18,12 @@
     },
     "sofr": {
       "value": 3.9,
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "series_id": "SOFR"
     },
     "treasury_10y": {
-      "value": 5.1,
-      "date": "2026-11-12",
+      "value": 5.15,
+      "date": "2026-11-13",
       "series_id": "DGS10"
     }
   },
@@ -4082,79 +4082,69 @@
       "date": "2026-11-12",
       "series_name": "sofr",
       "value": 3.9
+    },
+    {
+      "date": "2026-11-13",
+      "series_name": "treasury_10y",
+      "value": 5.15
+    },
+    {
+      "date": "2026-11-13",
+      "series_name": "sofr",
+      "value": 3.9
     }
   ],
   "fx_latest": [
     {
       "currency": "AUD",
-      "rate": 1.4738,
-      "date": "2026-11-13",
+      "rate": 1.48,
+      "date": "2026-11-16",
       "base": "USD"
     },
     {
       "currency": "CAD",
-      "rate": 1.4258,
-      "date": "2026-11-13",
+      "rate": 1.4285,
+      "date": "2026-11-16",
       "base": "USD"
     },
     {
       "currency": "CHF",
-      "rate": 0.8384,
-      "date": "2026-11-13",
+      "rate": 0.8393,
+      "date": "2026-11-16",
       "base": "USD"
     },
     {
       "currency": "CNY",
-      "rate": 6.6719,
-      "date": "2026-11-13",
+      "rate": 6.6665,
+      "date": "2026-11-16",
       "base": "USD"
     },
     {
       "currency": "EUR",
-      "rate": 0.90481,
-      "date": "2026-11-13",
+      "rate": 0.90794,
+      "date": "2026-11-16",
       "base": "USD"
     },
     {
       "currency": "GBP",
-      "rate": 0.75605,
-      "date": "2026-11-13",
+      "rate": 0.75767,
+      "date": "2026-11-16",
       "base": "USD"
     },
     {
       "currency": "INR",
-      "rate": 94.25,
-      "date": "2026-11-13",
+      "rate": 93.93,
+      "date": "2026-11-16",
       "base": "USD"
     },
     {
       "currency": "JPY",
-      "rate": 160.0,
-      "date": "2026-11-13",
+      "rate": 159.6,
+      "date": "2026-11-16",
       "base": "USD"
     }
   ],
   "fx_history": [
-    {
-      "date": "2026-05-19",
-      "currency": "EUR",
-      "rate": 0.86059
-    },
-    {
-      "date": "2026-05-19",
-      "currency": "GBP",
-      "rate": 0.74588
-    },
-    {
-      "date": "2026-05-19",
-      "currency": "INR",
-      "rate": 96.54
-    },
-    {
-      "date": "2026-05-19",
-      "currency": "JPY",
-      "rate": 159.11
-    },
     {
       "date": "2026-05-20",
       "currency": "EUR",
@@ -6714,6 +6704,26 @@
       "date": "2026-11-13",
       "currency": "JPY",
       "rate": 160.0
+    },
+    {
+      "date": "2026-11-16",
+      "currency": "EUR",
+      "rate": 0.90794
+    },
+    {
+      "date": "2026-11-16",
+      "currency": "GBP",
+      "rate": 0.75767
+    },
+    {
+      "date": "2026-11-16",
+      "currency": "INR",
+      "rate": 93.93
+    },
+    {
+      "date": "2026-11-16",
+      "currency": "JPY",
+      "rate": 159.6
     }
   ],
   "bank_system": {
@@ -6883,14 +6893,215 @@
       "year": 2025
     }
   ],
-  "treasury_sample": [],
+  "treasury_sample": [
+    {
+      "date": "2026-10-31",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": 4.014
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": 3.399
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": 3.483
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": 1.227
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": 4.17
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": 2.383
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": 3.57
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": 7.577
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": 3.14
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": 3.49
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": 3.131
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": 4.594
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": 3.629
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": 1.393
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": 3.63
+    },
+    {
+      "date": "2026-10-31",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": 3.58
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": 3.87
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": 3.383
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": 3.466
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": 1.149
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": 4.141
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": 2.383
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": 3.518
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": 7.577
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": 3.189
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": 3.459
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": 3.138
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": 4.527
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": 3.59
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": 1.392
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": 3.592
+    },
+    {
+      "date": "2026-09-30",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": 3.531
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": 3.788
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": 3.345
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": 3.453
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": 1.134
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": 3.845
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": 2.383
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": 3.475
+    },
+    {
+      "date": "2026-08-31",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": 7.577
+    }
+  ],
   "quality": {
-    "overall_score": 75.0,
-    "status": "warn",
+    "overall_score": 93.0,
+    "status": "pass",
     "datasets": [
       {
         "dataset": "fx_rates",
-        "row_count": 2040,
+        "row_count": 2048,
         "column_count": 5,
         "missing_values": {
           "date": 0,
@@ -6904,16 +7115,16 @@
           "rate": 0
         },
         "freshness": {
-          "latest_date": "2026-11-13",
-          "days_stale": 2,
+          "latest_date": "2026-11-16",
+          "days_stale": 0,
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-15T18:29:09.556839Z"
+        "checked_at": "2026-11-16T21:35:12.517913Z"
       },
       {
         "dataset": "interest_rates",
-        "row_count": 2451,
+        "row_count": 2449,
         "column_count": 5,
         "missing_values": {
           "date": 0,
@@ -6927,27 +7138,34 @@
           "value": 0
         },
         "freshness": {
-          "latest_date": "2026-11-12",
+          "latest_date": "2026-11-13",
           "days_stale": 3,
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-15T18:29:09.558891Z"
+        "checked_at": "2026-11-16T21:35:12.520798Z"
       },
       {
         "dataset": "treasury_rates",
-        "row_count": 0,
-        "column_count": 0,
-        "missing_values": {},
-        "duplicate_rows": 0,
-        "odd_values": {},
-        "freshness": {
-          "latest_date": null,
-          "days_stale": null,
-          "status": "unknown"
+        "row_count": 214,
+        "column_count": 4,
+        "missing_values": {
+          "date": 0,
+          "security_desc": 0,
+          "avg_interest_rate_amt": 0,
+          "source": 0
         },
-        "quality_score": 0.0,
-        "checked_at": "2026-11-15T18:29:09.558943Z"
+        "duplicate_rows": 0,
+        "odd_values": {
+          "avg_interest_rate_amt": 0
+        },
+        "freshness": {
+          "latest_date": "2026-10-31",
+          "days_stale": 16,
+          "status": "aging"
+        },
+        "quality_score": 90.0,
+        "checked_at": "2026-11-16T21:35:12.522708Z"
       },
       {
         "dataset": "bank_financials",
@@ -6979,11 +7197,11 @@
         },
         "freshness": {
           "latest_date": "2026-06-30",
-          "days_stale": 138,
+          "days_stale": 139,
           "status": "stale"
         },
         "quality_score": 74.9,
-        "checked_at": "2026-11-15T18:29:09.566417Z"
+        "checked_at": "2026-11-16T21:35:12.532907Z"
       },
       {
         "dataset": "world_bank_indicators",
@@ -7008,7 +7226,7 @@
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-15T18:29:09.567560Z"
+        "checked_at": "2026-11-16T21:35:12.534769Z"
       }
     ]
   }
