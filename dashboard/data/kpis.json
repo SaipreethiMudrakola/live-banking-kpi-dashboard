@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T21:35:12.589418Z",
+  "generated_at": "2026-11-17T20:24:20.618124Z",
   "rates": {
     "fed_funds": {
       "value": 3.88,
@@ -17,8 +17,8 @@
       "series_id": "DPRIME"
     },
     "sofr": {
-      "value": 3.9,
-      "date": "2026-11-13",
+      "value": 3.93,
+      "date": "2026-11-16",
       "series_id": "SOFR"
     },
     "treasury_10y": {
@@ -4092,79 +4092,64 @@
       "date": "2026-11-13",
       "series_name": "sofr",
       "value": 3.9
+    },
+    {
+      "date": "2026-11-16",
+      "series_name": "sofr",
+      "value": 3.93
     }
   ],
   "fx_latest": [
     {
       "currency": "AUD",
-      "rate": 1.48,
-      "date": "2026-11-16",
+      "rate": 1.4848,
+      "date": "2026-11-17",
       "base": "USD"
     },
     {
       "currency": "CAD",
-      "rate": 1.4285,
-      "date": "2026-11-16",
+      "rate": 1.4291,
+      "date": "2026-11-17",
       "base": "USD"
     },
     {
       "currency": "CHF",
-      "rate": 0.8393,
-      "date": "2026-11-16",
+      "rate": 0.8402,
+      "date": "2026-11-17",
       "base": "USD"
     },
     {
       "currency": "CNY",
-      "rate": 6.6665,
-      "date": "2026-11-16",
+      "rate": 6.6661,
+      "date": "2026-11-17",
       "base": "USD"
     },
     {
       "currency": "EUR",
-      "rate": 0.90794,
-      "date": "2026-11-16",
+      "rate": 0.91,
+      "date": "2026-11-17",
       "base": "USD"
     },
     {
       "currency": "GBP",
-      "rate": 0.75767,
-      "date": "2026-11-16",
+      "rate": 0.75808,
+      "date": "2026-11-17",
       "base": "USD"
     },
     {
       "currency": "INR",
-      "rate": 93.93,
-      "date": "2026-11-16",
+      "rate": 93.48,
+      "date": "2026-11-17",
       "base": "USD"
     },
     {
       "currency": "JPY",
-      "rate": 159.6,
-      "date": "2026-11-16",
+      "rate": 159.3,
+      "date": "2026-11-17",
       "base": "USD"
     }
   ],
   "fx_history": [
-    {
-      "date": "2026-05-20",
-      "currency": "EUR",
-      "rate": 0.86207
-    },
-    {
-      "date": "2026-05-20",
-      "currency": "GBP",
-      "rate": 0.74616
-    },
-    {
-      "date": "2026-05-20",
-      "currency": "INR",
-      "rate": 96.83
-    },
-    {
-      "date": "2026-05-20",
-      "currency": "JPY",
-      "rate": 159.03
-    },
     {
       "date": "2026-05-21",
       "currency": "EUR",
@@ -6724,6 +6709,26 @@
       "date": "2026-11-16",
       "currency": "JPY",
       "rate": 159.6
+    },
+    {
+      "date": "2026-11-17",
+      "currency": "EUR",
+      "rate": 0.91
+    },
+    {
+      "date": "2026-11-17",
+      "currency": "GBP",
+      "rate": 0.75808
+    },
+    {
+      "date": "2026-11-17",
+      "currency": "INR",
+      "rate": 93.48
+    },
+    {
+      "date": "2026-11-17",
+      "currency": "JPY",
+      "rate": 159.3
     }
   ],
   "bank_system": {
@@ -6873,26 +6878,7 @@
       "report_date": "2026-06-30"
     }
   ],
-  "world_bank": [
-    {
-      "indicator_name": "bank_capital_to_assets",
-      "indicator_code": "FB.BNK.CAPA.ZS",
-      "value": 9.17401570770544,
-      "year": 2025
-    },
-    {
-      "indicator_name": "domestic_credit_pct_gdp",
-      "indicator_code": "FS.AST.DOMS.GD.ZS",
-      "value": 262.301861696472,
-      "year": 2025
-    },
-    {
-      "indicator_name": "npl_ratio",
-      "indicator_code": "FB.AST.NPER.ZS",
-      "value": 0.960307384017485,
-      "year": 2025
-    }
-  ],
+  "world_bank": [],
   "treasury_sample": [
     {
       "date": "2026-10-31",
@@ -7096,8 +7082,8 @@
     }
   ],
   "quality": {
-    "overall_score": 93.0,
-    "status": "pass",
+    "overall_score": 73.0,
+    "status": "warn",
     "datasets": [
       {
         "dataset": "fx_rates",
@@ -7115,16 +7101,16 @@
           "rate": 0
         },
         "freshness": {
-          "latest_date": "2026-11-16",
+          "latest_date": "2026-11-17",
           "days_stale": 0,
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-16T21:35:12.517913Z"
+        "checked_at": "2026-11-17T20:24:20.555617Z"
       },
       {
         "dataset": "interest_rates",
-        "row_count": 2449,
+        "row_count": 2447,
         "column_count": 5,
         "missing_values": {
           "date": 0,
@@ -7138,12 +7124,12 @@
           "value": 0
         },
         "freshness": {
-          "latest_date": "2026-11-13",
-          "days_stale": 3,
+          "latest_date": "2026-11-16",
+          "days_stale": 1,
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-16T21:35:12.520798Z"
+        "checked_at": "2026-11-17T20:24:20.557858Z"
       },
       {
         "dataset": "treasury_rates",
@@ -7161,11 +7147,11 @@
         },
         "freshness": {
           "latest_date": "2026-10-31",
-          "days_stale": 16,
+          "days_stale": 17,
           "status": "aging"
         },
         "quality_score": 90.0,
-        "checked_at": "2026-11-16T21:35:12.522708Z"
+        "checked_at": "2026-11-17T20:24:20.559276Z"
       },
       {
         "dataset": "bank_financials",
@@ -7197,36 +7183,26 @@
         },
         "freshness": {
           "latest_date": "2026-06-30",
-          "days_stale": 139,
+          "days_stale": 140,
           "status": "stale"
         },
         "quality_score": 74.9,
-        "checked_at": "2026-11-16T21:35:12.532907Z"
+        "checked_at": "2026-11-17T20:24:20.568078Z"
       },
       {
         "dataset": "world_bank_indicators",
-        "row_count": 60,
-        "column_count": 6,
-        "missing_values": {
-          "year": 0,
-          "indicator_code": 0,
-          "indicator_name": 0,
-          "country": 0,
-          "value": 0,
-          "source": 0
-        },
+        "row_count": 0,
+        "column_count": 0,
+        "missing_values": {},
         "duplicate_rows": 0,
-        "odd_values": {
-          "year": 0,
-          "value": 0
-        },
+        "odd_values": {},
         "freshness": {
-          "latest_date": "2025",
-          "days_stale": 365,
-          "status": "fresh"
+          "latest_date": null,
+          "days_stale": null,
+          "status": "unknown"
         },
-        "quality_score": 100.0,
-        "checked_at": "2026-11-16T21:35:12.534769Z"
+        "quality_score": 0.0,
+        "checked_at": "2026-11-17T20:24:20.568147Z"
       }
     ]
   }

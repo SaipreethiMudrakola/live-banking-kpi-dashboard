@@ -1,6 +1,6 @@
 {
-  "overall_score": 93.0,
-  "status": "pass",
+  "overall_score": 73.0,
+  "status": "warn",
   "datasets": [
     {
       "dataset": "fx_rates",
@@ -18,16 +18,16 @@
         "rate": 0
       },
       "freshness": {
-        "latest_date": "2026-11-16",
+        "latest_date": "2026-11-17",
         "days_stale": 0,
         "status": "fresh"
       },
       "quality_score": 100.0,
-      "checked_at": "2026-11-16T21:35:12.517913Z"
+      "checked_at": "2026-11-17T20:24:20.555617Z"
     },
     {
       "dataset": "interest_rates",
-      "row_count": 2449,
+      "row_count": 2447,
       "column_count": 5,
       "missing_values": {
         "date": 0,
@@ -41,12 +41,12 @@
         "value": 0
       },
       "freshness": {
-        "latest_date": "2026-11-13",
-        "days_stale": 3,
+        "latest_date": "2026-11-16",
+        "days_stale": 1,
         "status": "fresh"
       },
       "quality_score": 100.0,
-      "checked_at": "2026-11-16T21:35:12.520798Z"
+      "checked_at": "2026-11-17T20:24:20.557858Z"
     },
     {
       "dataset": "treasury_rates",
@@ -64,11 +64,11 @@
       },
       "freshness": {
         "latest_date": "2026-10-31",
-        "days_stale": 16,
+        "days_stale": 17,
         "status": "aging"
       },
       "quality_score": 90.0,
-      "checked_at": "2026-11-16T21:35:12.522708Z"
+      "checked_at": "2026-11-17T20:24:20.559276Z"
     },
     {
       "dataset": "bank_financials",
@@ -100,36 +100,26 @@
       },
       "freshness": {
         "latest_date": "2026-06-30",
-        "days_stale": 139,
+        "days_stale": 140,
         "status": "stale"
       },
       "quality_score": 74.9,
-      "checked_at": "2026-11-16T21:35:12.532907Z"
+      "checked_at": "2026-11-17T20:24:20.568078Z"
     },
     {
       "dataset": "world_bank_indicators",
-      "row_count": 60,
-      "column_count": 6,
-      "missing_values": {
-        "year": 0,
-        "indicator_code": 0,
-        "indicator_name": 0,
-        "country": 0,
-        "value": 0,
-        "source": 0
-      },
+      "row_count": 0,
+      "column_count": 0,
+      "missing_values": {},
       "duplicate_rows": 0,
-      "odd_values": {
-        "year": 0,
-        "value": 0
-      },
+      "odd_values": {},
       "freshness": {
-        "latest_date": "2025",
-        "days_stale": 365,
-        "status": "fresh"
+        "latest_date": null,
+        "days_stale": null,
+        "status": "unknown"
       },
-      "quality_score": 100.0,
-      "checked_at": "2026-11-16T21:35:12.534769Z"
+      "quality_score": 0.0,
+      "checked_at": "2026-11-17T20:24:20.568147Z"
     }
   ]
 }
