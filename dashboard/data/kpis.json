@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T23:15:18.381428Z",
+  "generated_at": "2026-11-24T21:52:19.537847Z",
   "rates": {
     "fed_funds": {
       "value": 3.88,
@@ -13,17 +13,17 @@
     },
     "prime_rate": {
       "value": 7.0,
-      "date": "2026-11-09",
+      "date": "2026-11-23",
       "series_id": "DPRIME"
     },
     "sofr": {
       "value": 3.92,
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "series_id": "SOFR"
     },
     "treasury_10y": {
       "value": 4.92,
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "series_id": "DGS10"
     }
   },
@@ -3985,13 +3985,28 @@
     },
     {
       "date": "2026-11-10",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-11-10",
       "series_name": "sofr",
       "value": 3.89
+    },
+    {
+      "date": "2026-11-11",
+      "series_name": "prime_rate",
+      "value": 7.0
     },
     {
       "date": "2026-11-12",
       "series_name": "treasury_10y",
       "value": 5.1
+    },
+    {
+      "date": "2026-11-12",
+      "series_name": "prime_rate",
+      "value": 7.0
     },
     {
       "date": "2026-11-12",
@@ -4010,6 +4025,11 @@
     },
     {
       "date": "2026-11-13",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-11-13",
       "series_name": "sofr",
       "value": 3.9
     },
@@ -4017,6 +4037,11 @@
       "date": "2026-11-16",
       "series_name": "treasury_10y",
       "value": 5.12
+    },
+    {
+      "date": "2026-11-16",
+      "series_name": "prime_rate",
+      "value": 7.0
     },
     {
       "date": "2026-11-16",
@@ -4030,6 +4055,11 @@
     },
     {
       "date": "2026-11-17",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-11-17",
       "series_name": "sofr",
       "value": 3.92
     },
@@ -4040,6 +4070,11 @@
     },
     {
       "date": "2026-11-18",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-11-18",
       "series_name": "sofr",
       "value": 3.9
     },
@@ -4047,6 +4082,11 @@
       "date": "2026-11-19",
       "series_name": "treasury_10y",
       "value": 5.04
+    },
+    {
+      "date": "2026-11-19",
+      "series_name": "prime_rate",
+      "value": 7.0
     },
     {
       "date": "2026-11-19",
@@ -4065,6 +4105,26 @@
     },
     {
       "date": "2026-11-20",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-11-20",
+      "series_name": "sofr",
+      "value": 3.92
+    },
+    {
+      "date": "2026-11-23",
+      "series_name": "treasury_10y",
+      "value": 4.92
+    },
+    {
+      "date": "2026-11-23",
+      "series_name": "prime_rate",
+      "value": 7.0
+    },
+    {
+      "date": "2026-11-23",
       "series_name": "sofr",
       "value": 3.92
     }
@@ -4072,74 +4132,54 @@
   "fx_latest": [
     {
       "currency": "AUD",
-      "rate": 1.5113,
-      "date": "2026-11-23",
+      "rate": 1.5057,
+      "date": "2026-11-24",
       "base": "USD"
     },
     {
       "currency": "CAD",
-      "rate": 1.4362,
-      "date": "2026-11-23",
+      "rate": 1.4327,
+      "date": "2026-11-24",
       "base": "USD"
     },
     {
       "currency": "CHF",
-      "rate": 0.83975,
-      "date": "2026-11-23",
+      "rate": 0.83764,
+      "date": "2026-11-24",
       "base": "USD"
     },
     {
       "currency": "CNY",
-      "rate": 6.6647,
-      "date": "2026-11-23",
+      "rate": 6.6645,
+      "date": "2026-11-24",
       "base": "USD"
     },
     {
       "currency": "EUR",
-      "rate": 0.91416,
-      "date": "2026-11-23",
+      "rate": 0.91216,
+      "date": "2026-11-24",
       "base": "USD"
     },
     {
       "currency": "GBP",
-      "rate": 0.76491,
-      "date": "2026-11-23",
+      "rate": 0.76348,
+      "date": "2026-11-24",
       "base": "USD"
     },
     {
       "currency": "INR",
       "rate": 92.92,
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "base": "USD"
     },
     {
       "currency": "JPY",
       "rate": 159.07,
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "base": "USD"
     }
   ],
   "fx_history": [
-    {
-      "date": "2026-05-27",
-      "currency": "EUR",
-      "rate": 0.85933
-    },
-    {
-      "date": "2026-05-27",
-      "currency": "GBP",
-      "rate": 0.74433
-    },
-    {
-      "date": "2026-05-27",
-      "currency": "INR",
-      "rate": 95.69
-    },
-    {
-      "date": "2026-05-27",
-      "currency": "JPY",
-      "rate": 159.42
-    },
     {
       "date": "2026-05-28",
       "currency": "EUR",
@@ -6699,153 +6739,173 @@
       "date": "2026-11-23",
       "currency": "JPY",
       "rate": 159.07
+    },
+    {
+      "date": "2026-11-24",
+      "currency": "EUR",
+      "rate": 0.91216
+    },
+    {
+      "date": "2026-11-24",
+      "currency": "GBP",
+      "rate": 0.76348
+    },
+    {
+      "date": "2026-11-24",
+      "currency": "INR",
+      "rate": 92.92
+    },
+    {
+      "date": "2026-11-24",
+      "currency": "JPY",
+      "rate": 159.07
     }
   ],
   "bank_system": {
-    "bank_count": 4313,
-    "total_assets": 26753048556.0,
-    "total_deposits": 20876353743.0,
-    "total_net_income": 171891779.0,
-    "avg_roa": 1.4775778692547559,
-    "avg_npl_ratio": 0.9417128535584071,
-    "avg_efficiency": 70.41875293907563,
-    "as_of_date": "2026-06-30"
+    "bank_count": 4284,
+    "total_assets": 26952620089.0,
+    "total_deposits": 21060255774.0,
+    "total_net_income": 256796113.0,
+    "avg_roa": 1.4718951341895248,
+    "avg_npl_ratio": 0.9506922098503691,
+    "avg_efficiency": 66.25104482977557,
+    "as_of_date": "2026-09-30"
   },
   "top_banks": [
     {
       "name": "JPMORGAN CHASE BANK NA",
-      "assets": 4091315000.0,
-      "deposits": 2820284000.0,
-      "net_income": 31335000.0,
-      "roa": 1.5851712753913223,
-      "npl_ratio": 0.7792763341160891,
-      "report_date": "2026-06-30"
+      "assets": 4174631000.0,
+      "deposits": 2901316000.0,
+      "net_income": 44485000.0,
+      "roa": 1.4795432093399146,
+      "npl_ratio": 0.7587921511465211,
+      "report_date": "2026-09-30"
     },
     {
       "name": "BANK OF AMERICA NA",
-      "assets": 2654645000.0,
-      "deposits": 2121804000.0,
-      "net_income": 14947000.0,
-      "roa": 1.126140493190317,
-      "npl_ratio": 0.6482121956011048,
-      "report_date": "2026-06-30"
+      "assets": 2657391000.0,
+      "deposits": 2127248000.0,
+      "net_income": 21670000.0,
+      "roa": 1.0881262504059157,
+      "npl_ratio": 0.6153244007564833,
+      "report_date": "2026-09-30"
     },
     {
       "name": "CITIBANK NATIONAL ASSN",
-      "assets": 1976180000.0,
-      "deposits": 1547586000.0,
-      "net_income": 10118000.0,
-      "roa": 1.0564825195197276,
-      "npl_ratio": 0.6578530297427228,
-      "report_date": "2026-06-30"
+      "assets": 2018870000.0,
+      "deposits": 1579170000.0,
+      "net_income": 15467000.0,
+      "roa": 1.0622982243131711,
+      "npl_ratio": 0.6360436677538006,
+      "report_date": "2026-09-30"
     },
     {
       "name": "WELLS FARGO BANK NA",
-      "assets": 1907928000.0,
-      "deposits": 1563534000.0,
-      "net_income": 12808000.0,
-      "roa": 1.3764987837774905,
-      "npl_ratio": 1.0422032692249872,
-      "report_date": "2026-06-30"
+      "assets": 1914653000.0,
+      "deposits": 1570107000.0,
+      "net_income": 19727000.0,
+      "roa": 1.4032391327630909,
+      "npl_ratio": 0.9678191041643491,
+      "report_date": "2026-09-30"
     },
     {
       "name": "GOLDMAN SACHS BANK USA",
-      "assets": 758788000.0,
-      "deposits": 498804000.0,
-      "net_income": 4333000.0,
-      "roa": 1.2060897371960244,
-      "npl_ratio": 1.0446202658741315,
-      "report_date": "2026-06-30"
+      "assets": 789723000.0,
+      "deposits": 519089000.0,
+      "net_income": 6384000.0,
+      "roa": 1.1559886516885978,
+      "npl_ratio": 1.0501263865571697,
+      "report_date": "2026-09-30"
     },
     {
       "name": "U S BANK NATIONAL ASSN",
-      "assets": 705554946.0,
-      "deposits": 541886374.0,
-      "net_income": 4225746.0,
-      "roa": 1.2277839078306394,
-      "npl_ratio": 1.4475244752007927,
-      "report_date": "2026-06-30"
+      "assets": 685331511.0,
+      "deposits": 541948488.0,
+      "net_income": 6434899.0,
+      "roa": 1.2477715099835431,
+      "npl_ratio": 1.2940569012400447,
+      "report_date": "2026-09-30"
     },
     {
       "name": "CAPITAL ONE NATIONAL ASSN",
-      "assets": 662157000.0,
-      "deposits": 512600000.0,
-      "net_income": 5552000.0,
-      "roa": 1.6717593968867013,
-      "npl_ratio": 1.4913692089753232,
-      "report_date": "2026-06-30"
+      "assets": 661462000.0,
+      "deposits": 512007000.0,
+      "net_income": 9313000.0,
+      "roa": 1.871377043257154,
+      "npl_ratio": 1.5599158832902242,
+      "report_date": "2026-09-30"
     },
     {
       "name": "PNC BANK NATIONAL ASSN",
-      "assets": 609771726.0,
-      "deposits": 457798362.0,
-      "net_income": 3954707.0,
-      "roa": 1.3168442363727457,
-      "npl_ratio": 0.7432604356912987,
-      "report_date": "2026-06-30"
+      "assets": 622196000.0,
+      "deposits": 472539000.0,
+      "net_income": 6117000.0,
+      "roa": 1.3457865583807893,
+      "npl_ratio": 0.7642361565649954,
+      "report_date": "2026-09-30"
     },
     {
       "name": "TRUIST BANK",
-      "assets": 548346000.0,
-      "deposits": 419212000.0,
-      "net_income": 3155000.0,
-      "roa": 1.1620305148108248,
-      "npl_ratio": 0.7198424836522598,
-      "report_date": "2026-06-30"
-    },
-    {
-      "name": "BANK OF NEW YORK MELLON",
-      "assets": 425115000.0,
-      "deposits": 372562000.0,
-      "net_income": 2891000.0,
-      "roa": 1.362114740851899,
-      "npl_ratio": 0.042864184830364985,
-      "report_date": "2026-06-30"
+      "assets": 546612000.0,
+      "deposits": 421809000.0,
+      "net_income": 4034000.0,
+      "roa": 0.9888566442228713,
+      "npl_ratio": 0.6181320792413973,
+      "report_date": "2026-09-30"
     },
     {
       "name": "MORGAN STANLEY BANK NA",
-      "assets": 419318000.0,
-      "deposits": 278937000.0,
-      "net_income": 2763000.0,
-      "roa": 1.5581251744643416,
-      "npl_ratio": 0.47340670413383945,
-      "report_date": "2026-06-30"
+      "assets": 430132000.0,
+      "deposits": 276184000.0,
+      "net_income": 4335000.0,
+      "roa": 1.5473780589423887,
+      "npl_ratio": 0.6664677210782851,
+      "report_date": "2026-09-30"
     },
     {
       "name": "STATE STREET BANK&TRUST CO",
-      "assets": 412620000.0,
-      "deposits": 326247000.0,
-      "net_income": 1875000.0,
-      "roa": 0.9699555199953096,
-      "npl_ratio": 0.5594913021062079,
-      "report_date": "2026-06-30"
+      "assets": 397448000.0,
+      "deposits": 317277000.0,
+      "net_income": 2950000.0,
+      "roa": 1.0102735833608918,
+      "npl_ratio": 0.5865279961301245,
+      "report_date": "2026-09-30"
+    },
+    {
+      "name": "BANK OF NEW YORK MELLON",
+      "assets": 392893000.0,
+      "deposits": 338880000.0,
+      "net_income": 4343000.0,
+      "roa": 1.38998601737686,
+      "npl_ratio": 0.03994197901994997,
+      "report_date": "2026-09-30"
     },
     {
       "name": "TD BANK NATIONAL ASSN",
-      "assets": 342803746.0,
-      "deposits": 277668163.0,
-      "net_income": 1423501.0,
-      "roa": 0.8255348639380751,
-      "npl_ratio": 1.1077653872528839,
-      "report_date": "2026-06-30"
+      "assets": 341489266.0,
+      "deposits": 274558944.0,
+      "net_income": 2141956.0,
+      "roa": 0.8301392648998728,
+      "npl_ratio": 1.1402247575302942,
+      "report_date": "2026-09-30"
     },
     {
       "name": "FIFTH THIRD BANK NA",
-      "assets": 299177000.0,
-      "deposits": 240928000.0,
-      "net_income": 1312000.0,
-      "roa": 0.9730230833410587,
-      "npl_ratio": 0.8400503918748676,
-      "report_date": "2026-06-30"
+      "assets": 300339000.0,
+      "deposits": 245956000.0,
+      "net_income": 2265000.0,
+      "roa": 1.0888849827468712,
+      "npl_ratio": 0.8574585635359115,
+      "report_date": "2026-09-30"
     },
     {
       "name": "HUNTINGTON NATIONAL BANK",
-      "assets": 283073605.0,
-      "deposits": 227123103.0,
-      "net_income": 1431831.0,
-      "roa": 1.0857401002170708,
-      "npl_ratio": 1.0600106537818563,
-      "report_date": "2026-06-30"
+      "assets": 287081435.0,
+      "deposits": 229260912.0,
+      "net_income": 2226214.0,
+      "roa": 1.1010321791899451,
+      "npl_ratio": 1.124154670037429,
+      "report_date": "2026-09-30"
     }
   ],
   "world_bank": [
@@ -7090,16 +7150,16 @@
           "rate": 0
         },
         "freshness": {
-          "latest_date": "2026-11-23",
+          "latest_date": "2026-11-24",
           "days_stale": 0,
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-23T23:15:18.327217Z"
+        "checked_at": "2026-11-24T21:52:19.492576Z"
       },
       {
         "dataset": "interest_rates",
-        "row_count": 2446,
+        "row_count": 2455,
         "column_count": 5,
         "missing_values": {
           "date": 0,
@@ -7113,12 +7173,12 @@
           "value": 0
         },
         "freshness": {
-          "latest_date": "2026-11-20",
-          "days_stale": 3,
+          "latest_date": "2026-11-23",
+          "days_stale": 1,
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-23T23:15:18.329180Z"
+        "checked_at": "2026-11-24T21:52:19.494097Z"
       },
       {
         "dataset": "treasury_rates",
@@ -7136,11 +7196,11 @@
         },
         "freshness": {
           "latest_date": "2026-10-31",
-          "days_stale": 23,
+          "days_stale": 24,
           "status": "aging"
         },
         "quality_score": 90.0,
-        "checked_at": "2026-11-23T23:15:18.330584Z"
+        "checked_at": "2026-11-24T21:52:19.495075Z"
       },
       {
         "dataset": "bank_financials",
@@ -7162,21 +7222,21 @@
         "duplicate_rows": 0,
         "odd_values": {
           "cert": 0,
-          "assets": 354,
-          "deposits": 319,
-          "net_income": 442,
-          "roa": 437,
+          "assets": 362,
+          "deposits": 325,
+          "net_income": 425,
+          "roa": 417,
           "npl_ratio": 0,
-          "equity": 73,
-          "efficiency_ratio": 4
+          "equity": 77,
+          "efficiency_ratio": 3
         },
         "freshness": {
-          "latest_date": "2026-06-30",
-          "days_stale": 146,
+          "latest_date": "2026-09-30",
+          "days_stale": 55,
           "status": "stale"
         },
         "quality_score": 74.9,
-        "checked_at": "2026-11-23T23:15:18.337693Z"
+        "checked_at": "2026-11-24T21:52:19.500422Z"
       },
       {
         "dataset": "world_bank_indicators",
@@ -7201,7 +7261,7 @@
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-23T23:15:18.338826Z"
+        "checked_at": "2026-11-24T21:52:19.501353Z"
       }
     ]
   }

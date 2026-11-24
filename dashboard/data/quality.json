@@ -18,16 +18,16 @@
         "rate": 0
       },
       "freshness": {
-        "latest_date": "2026-11-23",
+        "latest_date": "2026-11-24",
         "days_stale": 0,
         "status": "fresh"
       },
       "quality_score": 100.0,
-      "checked_at": "2026-11-23T23:15:18.327217Z"
+      "checked_at": "2026-11-24T21:52:19.492576Z"
     },
     {
       "dataset": "interest_rates",
-      "row_count": 2446,
+      "row_count": 2455,
       "column_count": 5,
       "missing_values": {
         "date": 0,
@@ -41,12 +41,12 @@
         "value": 0
       },
       "freshness": {
-        "latest_date": "2026-11-20",
-        "days_stale": 3,
+        "latest_date": "2026-11-23",
+        "days_stale": 1,
         "status": "fresh"
       },
       "quality_score": 100.0,
-      "checked_at": "2026-11-23T23:15:18.329180Z"
+      "checked_at": "2026-11-24T21:52:19.494097Z"
     },
     {
       "dataset": "treasury_rates",
@@ -64,11 +64,11 @@
       },
       "freshness": {
         "latest_date": "2026-10-31",
-        "days_stale": 23,
+        "days_stale": 24,
         "status": "aging"
       },
       "quality_score": 90.0,
-      "checked_at": "2026-11-23T23:15:18.330584Z"
+      "checked_at": "2026-11-24T21:52:19.495075Z"
     },
     {
       "dataset": "bank_financials",
@@ -90,21 +90,21 @@
       "duplicate_rows": 0,
       "odd_values": {
         "cert": 0,
-        "assets": 354,
-        "deposits": 319,
-        "net_income": 442,
-        "roa": 437,
+        "assets": 362,
+        "deposits": 325,
+        "net_income": 425,
+        "roa": 417,
         "npl_ratio": 0,
-        "equity": 73,
-        "efficiency_ratio": 4
+        "equity": 77,
+        "efficiency_ratio": 3
       },
       "freshness": {
-        "latest_date": "2026-06-30",
-        "days_stale": 146,
+        "latest_date": "2026-09-30",
+        "days_stale": 55,
         "status": "stale"
       },
       "quality_score": 74.9,
-      "checked_at": "2026-11-23T23:15:18.337693Z"
+      "checked_at": "2026-11-24T21:52:19.500422Z"
     },
     {
       "dataset": "world_bank_indicators",
@@ -129,7 +129,7 @@
         "status": "fresh"
       },
       "quality_score": 100.0,
-      "checked_at": "2026-11-23T23:15:18.338826Z"
+      "checked_at": "2026-11-24T21:52:19.501353Z"
     }
   ]
 }
