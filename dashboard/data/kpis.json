@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T21:52:19.537847Z",
+  "generated_at": "2026-11-25T21:00:53.234562Z",
   "rates": {
     "fed_funds": {
       "value": 3.88,
@@ -7,8 +7,8 @@
       "series_id": "FEDFUNDS"
     },
     "mortgage_30y": {
-      "value": 7.28,
-      "date": "2026-11-19",
+      "value": 7.21,
+      "date": "2026-11-25",
       "series_id": "MORTGAGE30US"
     },
     "prime_rate": {
@@ -17,8 +17,8 @@
       "series_id": "DPRIME"
     },
     "sofr": {
-      "value": 3.92,
-      "date": "2026-11-23",
+      "value": 3.94,
+      "date": "2026-11-24",
       "series_id": "SOFR"
     },
     "treasury_10y": {
@@ -28,21 +28,6 @@
     }
   },
   "rate_history": [
-    {
-      "date": "2025-11-24",
-      "series_name": "treasury_10y",
-      "value": 4.04
-    },
-    {
-      "date": "2025-11-24",
-      "series_name": "prime_rate",
-      "value": 7.0
-    },
-    {
-      "date": "2025-11-24",
-      "series_name": "sofr",
-      "value": 3.96
-    },
     {
       "date": "2025-11-25",
       "series_name": "treasury_10y",
@@ -4127,79 +4112,69 @@
       "date": "2026-11-23",
       "series_name": "sofr",
       "value": 3.92
+    },
+    {
+      "date": "2026-11-24",
+      "series_name": "sofr",
+      "value": 3.94
+    },
+    {
+      "date": "2026-11-25",
+      "series_name": "mortgage_30y",
+      "value": 7.21
     }
   ],
   "fx_latest": [
     {
       "currency": "AUD",
-      "rate": 1.5057,
-      "date": "2026-11-24",
+      "rate": 1.5221,
+      "date": "2026-11-25",
       "base": "USD"
     },
     {
       "currency": "CAD",
-      "rate": 1.4327,
-      "date": "2026-11-24",
+      "rate": 1.4258,
+      "date": "2026-11-25",
       "base": "USD"
     },
     {
       "currency": "CHF",
-      "rate": 0.83764,
-      "date": "2026-11-24",
+      "rate": 0.83082,
+      "date": "2026-11-25",
       "base": "USD"
     },
     {
       "currency": "CNY",
-      "rate": 6.6645,
-      "date": "2026-11-24",
+      "rate": 6.6757,
+      "date": "2026-11-25",
       "base": "USD"
     },
     {
       "currency": "EUR",
-      "rate": 0.91216,
-      "date": "2026-11-24",
+      "rate": 0.91449,
+      "date": "2026-11-25",
       "base": "USD"
     },
     {
       "currency": "GBP",
-      "rate": 0.76348,
-      "date": "2026-11-24",
+      "rate": 0.76571,
+      "date": "2026-11-25",
       "base": "USD"
     },
     {
       "currency": "INR",
-      "rate": 92.92,
-      "date": "2026-11-24",
+      "rate": 92.24,
+      "date": "2026-11-25",
       "base": "USD"
     },
     {
       "currency": "JPY",
-      "rate": 159.07,
-      "date": "2026-11-24",
+      "rate": 159.32,
+      "date": "2026-11-25",
       "base": "USD"
     }
   ],
   "fx_history": [
-    {
-      "date": "2026-05-28",
-      "currency": "EUR",
-      "rate": 0.86081
-    },
-    {
-      "date": "2026-05-28",
-      "currency": "GBP",
-      "rate": 0.74602
-    },
-    {
-      "date": "2026-05-28",
-      "currency": "INR",
-      "rate": 95.7
-    },
-    {
-      "date": "2026-05-28",
-      "currency": "JPY",
-      "rate": 159.46
-    },
     {
       "date": "2026-05-29",
       "currency": "EUR",
@@ -6759,6 +6734,26 @@
       "date": "2026-11-24",
       "currency": "JPY",
       "rate": 159.07
+    },
+    {
+      "date": "2026-11-25",
+      "currency": "EUR",
+      "rate": 0.91449
+    },
+    {
+      "date": "2026-11-25",
+      "currency": "GBP",
+      "rate": 0.76571
+    },
+    {
+      "date": "2026-11-25",
+      "currency": "INR",
+      "rate": 92.24
+    },
+    {
+      "date": "2026-11-25",
+      "currency": "JPY",
+      "rate": 159.32
     }
   ],
   "bank_system": {
@@ -7150,16 +7145,16 @@
           "rate": 0
         },
         "freshness": {
-          "latest_date": "2026-11-24",
+          "latest_date": "2026-11-25",
           "days_stale": 0,
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-24T21:52:19.492576Z"
+        "checked_at": "2026-11-25T21:00:53.186913Z"
       },
       {
         "dataset": "interest_rates",
-        "row_count": 2455,
+        "row_count": 2457,
         "column_count": 5,
         "missing_values": {
           "date": 0,
@@ -7173,12 +7168,12 @@
           "value": 0
         },
         "freshness": {
-          "latest_date": "2026-11-23",
-          "days_stale": 1,
+          "latest_date": "2026-11-25",
+          "days_stale": 0,
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-24T21:52:19.494097Z"
+        "checked_at": "2026-11-25T21:00:53.188539Z"
       },
       {
         "dataset": "treasury_rates",
@@ -7196,11 +7191,11 @@
         },
         "freshness": {
           "latest_date": "2026-10-31",
-          "days_stale": 24,
+          "days_stale": 25,
           "status": "aging"
         },
         "quality_score": 90.0,
-        "checked_at": "2026-11-24T21:52:19.495075Z"
+        "checked_at": "2026-11-25T21:00:53.189678Z"
       },
       {
         "dataset": "bank_financials",
@@ -7232,11 +7227,11 @@
         },
         "freshness": {
           "latest_date": "2026-09-30",
-          "days_stale": 55,
+          "days_stale": 56,
           "status": "stale"
         },
         "quality_score": 74.9,
-        "checked_at": "2026-11-24T21:52:19.500422Z"
+        "checked_at": "2026-11-25T21:00:53.195788Z"
       },
       {
         "dataset": "world_bank_indicators",
@@ -7261,7 +7256,7 @@
           "status": "fresh"
         },
         "quality_score": 100.0,
-        "checked_at": "2026-11-24T21:52:19.501353Z"
+        "checked_at": "2026-11-25T21:00:53.196796Z"
       }
     ]
   }
