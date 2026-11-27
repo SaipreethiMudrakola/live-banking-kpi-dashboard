@@ -1,9 +1,9 @@
 {
-  "run_id": "20261126T204950Z-046df924",
-  "generated_at": "2026-11-26T20:49:59.231446Z",
+  "run_id": "20261127T203528Z-b9b84be2",
+  "generated_at": "2026-11-27T20:35:38.151700Z",
   "sources": {
     "frankfurter": 2048,
-    "fred": 2458,
+    "fred": 2456,
     "treasury": 214,
     "fdic": 10000,
     "world_bank": 60
